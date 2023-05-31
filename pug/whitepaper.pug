@@ -1,0 +1,453 @@
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap")
+        link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="icon", type="image/png", sizes="32x32", href="shuffle-for-tailwind.png")
+        script(src="js/main.js")
+    body(class="antialiased bg-body text-body font-body")
+        div(class="")
+            section(class="bg-white")
+                nav(class="flex justify-between p-6 px-4")
+                    div(class="flex justify-between items-center w-full")
+                        div(class="xl:w-1/3")
+                            a(class="block max-w-max", href="index.html")
+                                img(class="h-8", src="images/Group-24.png", alt="")
+                        div(class="hidden xl:block xl:w-1/3")
+                            ul(class="flex justify-center")
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="product.html") Product
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="vision.html") Vision
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="ecosystem.html") Ecosystem
+                                li
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="whitepaper.html") Whitepaper
+                        div(class="hidden xl:block xl:w-1/3")
+                            div(class="flex items-center justify-end")
+                                a(class="inline-block py-2 px-4 mr-2 leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium rounded-md", href="about.html") About
+                                a(class="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Waitlist
+                    button(class="navbar-burger self-center xl:hidden")
+                        svg(width="35", height="35", viewbox="0 0 32 32", fill="none", xmlns="http://www.w3.org/2000/svg")
+                            rect(class="text-coolGray-50", width="32", height="32", rx="6", fill="currentColor")
+                            path(class="text-coolGray-500", d="M7 12H25C25.2652 12 25.5196 11.8946 25.7071 11.7071C25.8946 11.5196 26 11.2652 26 11C26 10.7348 25.8946 10.4804 25.7071 10.2929C25.5196 10.1054 25.2652 10 25 10H7C6.73478 10 6.48043 10.1054 6.29289 10.2929C6.10536 10.4804 6 10.7348 6 11C6 11.2652 6.10536 11.5196 6.29289 11.7071C6.48043 11.8946 6.73478 12 7 12ZM25 15H7C6.73478 15 6.48043 15.1054 6.29289 15.2929C6.10536 15.4804 6 15.7348 6 16C6 16.2652 6.10536 16.5196 6.29289 16.7071C6.48043 16.8946 6.73478 17 7 17H25C25.2652 17 25.5196 16.8946 25.7071 16.7071C25.8946 16.5196 26 16.2652 26 16C26 15.7348 25.8946 15.4804 25.7071 15.2929C25.5196 15.1054 25.2652 15 25 15ZM25 20H7C6.73478 20 6.48043 20.1054 6.29289 20.2929C6.10536 20.4804 6 20.7348 6 21C6 21.2652 6.10536 21.5196 6.29289 21.7071C6.48043 21.8946 6.73478 22 7 22H25C25.2652 22 25.5196 21.8946 25.7071 21.7071C25.8946 21.5196 26 21.2652 26 21C26 20.7348 25.8946 20.4804 25.7071 20.2929C25.5196 20.1054 25.2652 20 25 20Z", fill="currentColor")
+                div(class="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50")
+                    div(class="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-white")
+                        nav(class="relative p-6 h-full overflow-y-auto")
+                            div(class="flex flex-col justify-between h-full")
+                                a(class="inline-block", href="#")
+                                    img(class="h-8", src="flex-ui-assets/logos/flex-ui-green-light.svg", alt="")
+                                ul(class="py-6")
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Product
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Features
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Pricing
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Resources
+                                div(class="flex flex-wrap")
+                                    div(class="w-full mb-2")
+                                        a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium text-center rounded-md", href="#") Log In
+                                    div(class="w-full")
+                                        a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Sign Up
+                        a(class="navbar-close absolute top-5 p-4 right-3", href="#")
+                            svg(width="12", height="12", viewbox="0 0 12 12", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                path(d="M6.94004 6L11.14 1.80667C11.2656 1.68113 11.3361 1.51087 11.3361 1.33333C11.3361 1.1558 11.2656 0.985537 11.14 0.860002C11.0145 0.734466 10.8442 0.66394 10.6667 0.66394C10.4892 0.66394 10.3189 0.734466 10.1934 0.860002L6.00004 5.06L1.80671 0.860002C1.68117 0.734466 1.51091 0.663941 1.33337 0.663941C1.15584 0.663941 0.985576 0.734466 0.860041 0.860002C0.734505 0.985537 0.66398 1.1558 0.66398 1.33333C0.66398 1.51087 0.734505 1.68113 0.860041 1.80667L5.06004 6L0.860041 10.1933C0.797555 10.2553 0.747959 10.329 0.714113 10.4103C0.680267 10.4915 0.662842 10.5787 0.662842 10.6667C0.662842 10.7547 0.680267 10.8418 0.714113 10.9231C0.747959 11.0043 0.797555 11.078 0.860041 11.14C0.922016 11.2025 0.99575 11.2521 1.07699 11.2859C1.15823 11.3198 1.24537 11.3372 1.33337 11.3372C1.42138 11.3372 1.50852 11.3198 1.58976 11.2859C1.671 11.2521 1.74473 11.2025 1.80671 11.14L6.00004 6.94L10.1934 11.14C10.2554 11.2025 10.3291 11.2521 10.4103 11.2859C10.4916 11.3198 10.5787 11.3372 10.6667 11.3372C10.7547 11.3372 10.8419 11.3198 10.9231 11.2859C11.0043 11.2521 11.0781 11.2025 11.14 11.14C11.2025 11.078 11.2521 11.0043 11.286 10.9231C11.3198 10.8418 11.3372 10.7547 11.3372 10.6667C11.3372 10.5787 11.3198 10.4915 11.286 10.4103C11.2521 10.329 11.2025 10.2553 11.14 10.1933L6.94004 6Z", fill="#556987")
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full px-4 mb-10")
+                            div(class="flex flex-wrap justify-between items-center")
+                                div(class="w-full md:w-1/2 mb-10 md:mb-0")
+                                    span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P0
+                                    h3(class="mb-4 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") Branche Whitepaper
+                                    |       
+                                    p(class="text-lg md:text-xl leading-8 font-semibold text-black") A New Paradigm of Semantic Privacy-first DID Protocol
+                                div(class="w-full md:w-auto")
+                                    div(class="flex flex-wrap justify-center items-center -mb-2")
+                                        a(class="inline-block py-3 px-6 mb-2 w-full md:w-auto md:mr-5 text-lg leading-7 text-coolGray-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Chat with Whitepaper AI
+                                        a(class="inline-block py-3 px-6 mb-2 w-full md:w-auto text-lg leading-7 font-medium text-center text-coolGray-500 bg-coolGray-50 hover:bg-coolGray-100 rounded-md", href="#") Product
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche aims to create a semantic privacy DID protocol to achieve higher value user privacy protection and data transactions. This whitepaper will provide detailed information on Branche's technical architecture, user profile generation, data authorization, and benefit acquisition.
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche's core technologies include semantic privacy decentralized identification (DID) protocol and AI browser plugins. Through the DID protocol, Branche will achieve decentralized data management, providing a higher degree of privacy protection. The AI browser plugin can help users automatically capture their own interaction behavior and knowledge graphs, further forming their own user profile.
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span In Branche, users can authorize their data through zero-knowledge proof (ZK) to obtain certain benefits. This data authorization method not only ensures user data privacy but also allows users to benefit from it.
+                                |       
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p(class="text-lg font-medium leading-7 text-coolGray-500") In summary, Branche is dedicated to providing users with a highly private, decentralized, and potentially valuable data engine.
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P1
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") Branche's Vision and Goals
+                            p(class="mb-6 text-lg md:text-xl leading-8 font-semibold text-black") To help people retake personal data soveignity and empower users with personal AI with personal data.
+                            |       
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche aims to create a semantic privacy DID protocol, hoping to help users regain autonomy and choice over their data. In the world that Branche hopes to create, everyone has true control over their data and can choose whether to authorize their data or revoke data permissions at any time, while also obtaining benefits through authorized data access.
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span At the individual level, Branche aims to help users turn their data into a user-defined, personal AI assistant (the second brain or VA), which can assist users in message recommendation, filtering, and processing. These are services that were previously controlled by large corporations and were unable to be personalized, but often have the most significant impact on individual autonomy.
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p(class="text-lg font-medium leading-7 text-coolGray-500") Additionally, through our underlying data protocol, we aim to introduce zero-knowledge proof applications into the web2 world, creating a seamless web3, semantic web of data-as-identity. By using zero-knowledge proofs, we aim to create a new social contract, reducing trust costs, verification costs, and performance costs, ultimately providing identity-programmability for network states.
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P2
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") Core Advantages and Features of Branche
+                            p(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold") The core advantages of the Branche protocol are three-fold: "semantic, zero-knowledge, and permissionless". We are building an internet protocol with the following specific meanings and characteristics:
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Semantic
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche semantically represents the data of each user, which means that a specific user's ontology description and behavior logic can be expressed in natural language and semantically represented in vector data. In the future, data can be retrieved through natural language description, resulting in a more readable, scalable, and usable data that is like a language, independent of all ecosystems (natively cross-chain), and exists in all ecosystems at the same time.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Zero-Knowledge
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                    | The composition of all user identities is achieved through a set of de-identification, non-directional, and privacy-protective data structures. Users can call their data at any time for self-identification, social trust building, knowledge proof, etc., to prove their own data. Through embedded zero-knowledge, data sovereignty is ensured, and in the future, users can even prove their data through zero-knowledge language models, creating "
+                                    strong automated trust
+                                    | ".
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2", contenteditable="false") Permissionless
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Under the Branche protocol, all interactions are native and permissionless. Data itself is independent of any existence and exists in any storage space in the form of a DID file. Users can store it locally, use proxy storage, or centralized custody. Users can retrieve their data proof anywhere, anytime, without any permission from any centralized service provider, proving and verifying their own identity.
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P2
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") To provide so, comes a personal AI for everyone: Branche AI
+                            |             
+                            p(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold") The core advantages of Branche AI lie in three main features: "personalization, autonomy, and versatility". We are building an AI that is unique to each user, with the following specific meanings and features:
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Personalization
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche visualizes each user's AI as an extension of their own consciousness. Users can bring their intentions and knowledge background to AI through usage. In daily use, AI can provide personalized services such as custom recommendation algorithms, filters, etc. through its second brain memory, helping users regain their right to choose from enterprises.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Autonomy
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche AI is independent of any large language model services. Users can activate Branche AI using any language model (even future local models) of their choice without permission. Users themselves control all components of Branche AI and can operate Branche AI as their own assistant, becoming their own agent.
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Versatility
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche AI adopts semantic behavior data and knowledge graph parsing algorithms, applying LLM's generalization ability to users' daily data flow, achieving cross-platform generalization ability. In the future, it can even solve the problem of limited mobile phones and ineffective proof generation in real-life scenarios by accessing intelligent devices (OCR/multimodal).
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P3
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") How does Branche achieve a decentralized data engine?
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            p(class="py-2 text-lg font-medium leading-7 text-coolGray-500") The Branche protocol's data engine is designed to be decentralized with the use of zero-knowledge (ZK) technology. This technology allows for each piece of data to be digitized and have proof of data generation uploaded to Mina through Snarky. This approach offers several advantages, including:
+                            ol
+                                li(class="p-2 text-lg font-medium leading-7", contenteditable="false") Lightweight: The use of ZK technology allows for data to be compressed and stored in a more efficient manner, making it easier to manage and transfer.
+                                li(class="p-2 text-lg font-medium leading-7", contenteditable="false") Privacy application: The original data is abstracted and de-identified through ZK, which ensures that the owners of all data cannot be queried. This protects user privacy while still allowing for data to be shared and utilized.
+                                li(class="p-2 text-lg font-medium leading-7") Off-chain smart contracts: By using off-chain smart contracts, Branche is able to reduce the cost and processing time associated with on-chain smart contracts. This approach allows for faster and more efficient data processing while still maintaining the security and integrity of the data.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                                span(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false") Let's explore an example to understand the concept better. Consider an advertiser who is interested in finding user data of females who use web3 in China. With the use of zkPoH, the advertiser can be assured of the historical proof of the data and the existence of its owners. The subsequent interaction can also confirm that the interaction object is the rightful owner of the data through proof. However, the advertiser cannot know who the owner is due to the privacy-preserving features of zkPoD. This feature ensures that the advertiser does not need to pay before reaching the other party, enabling a new transparent yet private data engine. These privacy-enhancing features are critical in many areas, including finance, healthcare, and personal data management.
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false") In summary, the Branche protocol's use of zero-knowledge proof (ZKP) technology and off-chain smart contracts helps to achieve a decentralized data engine that is lightweight, private, and efficient in processing data. This is because the ZKP technology ensures that data can be verified without revealing any information about it, thus enhancing the privacy protection. In addition, the off-chain smart contracts allow for faster and cheaper data processing, which makes the protocol more efficient. Overall, the combination of these technologies makes the Branche protocol a promising solution for decentralized data storage and management, with potential applications in various industries such as finance, healthcare, and supply chain management.
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P4
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") Key Technical Components
+                            |             
+                            p(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold") The core architecture of Branche consists of "Apps, DataPod, PKM, DMP, ZK-Provider, AI-Provider, Extensions", each responsible for the following functions:
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Apps
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2") This includes native applications developed by Branche, such as our first product: AI browser plug-in, which helps users automatically capture their interaction behavior and knowledge graphs, forming their own user profile. It also includes applications developed by the developer community or third-party developers.
+                                li(class="p-2 text-lg font-medium leading-7 text-coolGray-500")
+                                    | Branche's future applications (names are tentative):
+                                    |             
+                                    ul
+                                        li(class="p-2 text-lg font-medium leading-7 text-coolGray-500")
+                                            strong zkHandShake
+                                            | : An application based on zk that compares the data sets of two people to find overlaps. A typical example is that scanning a social code can obtain common friends/interests/behaviors of both parties.
+                                        li(class="p-2 text-lg font-medium leading-7 text-coolGray-500")
+                                            strong zkDSP
+                                            | : A data buyer platform based on zk that helps with advertising placement and matching, finding users precisely, and proving that users have viewed ads without revealing their privacy.
+                                        li(class="p-2 text-lg font-medium leading-7 text-coolGray-500")
+                                            strong zkJob
+                                            | : A job search/recruitment matching application based on zk that automatically matches suitable jobs/job seekers. And by verifying the knowledge background CAPTCHA using zk, it eliminates resume fraud.
+                                li(class="text-lg font-medium leading-7 text-coolGray-500")
+                                    | Branche encourages developers to develop any applications based on the Branche protocol. By expanding privacy data to more application scenarios, Branche will provide more 
+                                    strong developer support and rewards
+                                    |  in the future.
+                            p
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") DataPod
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500") Branche's native data storage container is used for user data management, permission management, authorization signature, etc. DataPod itself also serves as a tool for user identity verification, providing a series of interactions with applications and data calls. Its significance is similar to that of AA-SCW (for data), helping users truly manage all their data autonomously.
+                            p
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") PKM
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500") The main function of PKM (Personal Knowledge Management) is to extract and index user data memory, reflected in the user's personal knowledge base, second brain, and knowledge management. In the future, users can authorize their data as an open knowledge base/robot for third parties, providing other users with contextual knowledge and generating income from authorizing their knowledge.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") DMP
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2")
+                                    | The Branche DMP data engine itself is a chain storage protocol consisting of the following elements:
+                                    |             
+                                    ul
+                                        li(class="p-2 text-lg font-medium leading-7 text-coolGray-500 py-2") Data processing module: All data is imported through AI-Provider on the user side and stored in the vector database through a data pipeline compatible with w3c and interact with dataPod for personal data CRUD.
+                                        li(class="p-2 text-lg font-medium leading-7 text-coolGray-500 py-2") Distributed vector database: The distributed vector database consists of different nodes (thema). Thema refers to different data topic libraries, which can be understood as each node having a theme. For example, the programmer node collects data related to programmers, and the Hangzhou node collects data related to Hangzhou. Such a database can be operated and deployed by curators, who collect and construct the recording library of different value groups. Of course, requesters can query across multiple nodes.
+                                        li(class="p-2 text-lg font-medium leading-7 text-coolGray-500 py-2") Data service API: Developers can query the public data of everyone on any node, and develop/analyze based on data, and access services to develop applications based on the Branche ecology.
+                            h2(class="text-2xl font-bold pb-2") ZK-Provider
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2") Thanks to the support of Mina ZkApps, Branche's ecological applications can run in any chain environment and ensure privacy and data authenticity. Zk-Provider, as an independent existence, supports off-chain smart contracts and data interaction within the Branche ecosystem. We will provide more explanations for this part in the future.
+                            h2(class="text-2xl font-bold pb-2") AI-Provider
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2")
+                                    | When users use Branche's ecological applications, they need to access the LLM service to use semantic functions effectively. Users can choose to access the model through "local, official, or third-party" methods. Currently, we are researching technologies and papers related to large-scale language model encryption operations (embeddings cryptography) to ensure the privacy data of users is kept secure and will not be leaked when using large models. If you have any research in this area, please contact us at 
+                                    a(href="mailto:contact@branche.ai") contact@branche.ai
+                                    | .
+                            h2(class="text-2xl font-bold pb-2") Extensions (Ecosystem)
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2")
+                                    | In the Branche ecosystem, all components are modular, and users can build Extensions based on the ecosystem to build more data ecological extensions on the basis of the native ecosystem. Branche encourages developers to develop any extensions based on the Branche protocol, providing more underlying extensions for privacy data. Branche will provide more 
+                                    strong developer support and rewards
+                                    |  in the future.
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P5
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") Ensuring user privacy and data security
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2") Branche is an open data protocol that guarantees user privacy and data security through zero-knowledge proof. The data within the protocol has been verified by industry experts and professional code audit organizations to ensure code quality at the protocol level and protect user data security. However, as an unauthorized protocol, improper user operation may inevitably cause data leaks. We ensure that even if data leaks occur, the data itself cannot point to any specific user by abstracting users into each incarnation.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            ul
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2")
+                                    | Branche's developer ecosystem also plans to increase the Bug Bounty program, working with developers to create a more secure and private data protocol. Branche will provide corresponding rewards for developers who provide bug reports and security optimization, committed to protecting user data. If you have any suggestions regarding Branche's security, please contact us at 
+                                    a(href="mailto:security@branche.ai") security@branche.ai
+                                    | .
+                                li(class="text-lg font-medium leading-7 text-coolGray-500 py-2")
+                                    | We have always attached great importance to cutting-edge cryptography technology and its related technology implementation. If you are interested in joining Branche and participating in the development of cutting-edge applications such as ZK, TEE, and vector encryption, please contact us at 
+                                    a(href="mailto:hr@branche.ai") hr@branche.ai
+                                    | .
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P6
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") Capturing interactive behavior and knowledge graphs
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche's AI browser extension is Branche's first PoC product, aimed at demonstrating the potential of Branche. The Branche AI extension helps users crawl key information in the browser (Html, DOMevents, Content) in real-time for parsing and extracts key interactive behavior data and knowledge graphs through LLM. We will standardize a series of commonly used internet platform parsing and provide more website parsing for developer ecosystem users in the future as curators to capture more key information and help us set more tracking points and participate in data revenue sharing.
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") P7
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter") Value of self-soveign identity portraits
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Personal level
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false") All large free Web 2.0 internet products are essentially designed to let users use them for free, gain their data value, and sell the user portraits to B-side for profit. Thus, users cannot obtain ownership of their own data. From the user's perspective, obtaining their own identity portrait can establish their own credit and digital identity, serve as their own data authentication, and authorize their identity portraits (data) to obtain more services and benefits, and take control of their data without third-party supervision.
+                            p
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Commercial level
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") In the past, advertisers or producers often had to pay for exposure to large traffic platforms because they did not have means to grasp traffic (interact with consumers directly). The more precise the user positioning, the higher the cost. However, if the traffic platform has a say in the data, advertisers often cannot determine whether their placement is reasonable and often only pay "protection fees" without addressing the root problem. Self-owned identity portraits can help businesses not need to pay for "protection fees" after going platform-free, and instead trade autonomously with users to increase certainty and value circulation.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            ul
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2", contenteditable="false") Social level
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false") Branche believes that self-owned identity portraits and privacy can encourage more people to share their data, and more data will bring more confirmation to the community and create more value for society. When more people have self-owned identity portraits, it will greatly improve communication efficiency, reduce trust costs, verification costs, and performance costs, and serve as the underlying data of the new social contract paradigm. Its value lies in automating the process of establishing trust through active behavior, enabling web3 to move towards a future of trustful→trustless→trustless trust. In the future, we will conduct more exploration in the direction of Programmable Trust to increase collaborative efficiency.
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Self-owned identity portraits help users create their own digital identities, which exist independently on any platform and are not controlled by any platform data. In the increasingly semantically ecological self-owned identity portrait, it will support more verification scenarios that were previously "offline/inefficient".
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl", contenteditable="false") P8
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") Zero Knowledge Proof (ZK) to authorize user data and achieve data security sharing
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false") Using ZK technology can achieve secure data sharing by granting access to specific data without sharing the entire dataset. Users can prove their ownership of specific identities or attributes through generated VCs, allowing them to selectively disclose specific shared data without sharing their entire identity. ZK technology allows users to prove that they have the right to access certain data without revealing the content of that data to third parties. By using these technologies together, users can be authorized to access specific data without revealing the entire dataset.
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl", contenteditable="false") P9
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") Users rights & benefits of their data through authorization
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") uthorization is described as "Who (Who) can perform What operation (What) on what resource (How)." We use the RBAC model to support users in creating different "roles," describing the semantic ownership of that role's data and setting rules for who that role's data is authorized to. Developers can also request data through smart contracts in the service and provide rewards/permissions to users after authorization (more: zkOauth, zkPoD).
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Rights: In the early stages, Branche rewards high-quality ecological behavior with tokens. After the user signs the Branche Everlast contract, 10% of the future value of all data will be used for the Branche ecological reward pool.
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl", contenteditable="false")
+                                | P10
+                                br
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") Branche's governance model and community participation
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            ul
+                            p
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche's governance system is mainly composed of two parts: Branche Labs and Branche DAO. Branche Labs is the core team composed of Branche's founder, core developers, and supporters, responsible for all early decision-making, development, and operation of Branche. Branche DAO is the organization that Branche hopes to grasp the core governance of Branche ecology in the process of ecological construction in the future, and the future protocol pricing, treasury, subsidies, incentives, etc. will be decided and voted on by Branche DAO to ensure Branche's Everlast. Branche DAO will set different thresholds for different users in the protocol and select agents through screening and voting. Any user in the Branche DAO community can initiate a proposal.
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche's core exchange contract will be deployed by Branche Labs' official multi-signature address and designed with timelock. Branche Labs will invite core contributors in the community to become multi-signature members.
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") About Branche Everlast: Branche Everlast is a governance contract initiated by Branche Labs, inviting users to share their data according to the Exponential Decay. Part of the future data-generated revenue will be used to support the sustainability and liquidity incentives of Branche ecology. The core content includes decay rate, dynamic drip, and detention pool.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Decay rate
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Users can choose different Decay Rates, which can be understood as half-life, to share data revenue rights with Branche within the specified period.
+                            h2(class="text-2xl font-bold pb-2") Dynamic drip
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Due to the dynamics of the market and the regulation of market heat, the Dynamic drip will automatically adjust and reduce the excessive fluctuation of data prices to ensure market stability.
+                            h2(class="text-2xl font-bold pb-2") Detention pool
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") The Detention pool is a livestock flood pool specially designed for Branche's sustainable incentives. By attracting the community to share revenue (voluntary taxation), it serves as an incentive budget for future Branche. The Dentention also serves as an automatic adjustment function for the market.
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Currently, Branche is in its early stage and the technology selection as well as the ecosystem has not been determined. We are currently open to any ecosystem and Branche will greatly improve its scalability, making it applicable to more ecosystems in the future. Branche has already collaborated with dozens of Web3 projects to jointly build the Branche ecosystem and data privacy engine in the future.
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                | Branche is committed to creating an open, private, and imperceptible Web3 data engine, reducing the cost of entry for Web2 users. If you are interested in partnering with us, please contact 
+                                a(href="mailto:contact@branche.ai") contact@branche.ai
+                                | .
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl", contenteditable="false") P11
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") Branche's Roadmap and Development plan
+                            p(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Roadmap
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche's core roadmap consists of four major areas: "DevEco, Community, Growth, Buidl". DevEco will promote ecological development through community open-source projects and bounties, while the community will attract more people to join the Branche protocol and provide contributions. The growth part will serve the promotion and operational development of all Branche businesses, and Buidl's focus is on building the core technology of the Branche Protocol, technical development, distributed architecture, and protocol standards.
+                            h2(class="text-2xl font-bold pb-2") Ecosystem
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche plans to create a multi-threaded development ecosystem, build a common symbol of value philosophy, and attract more people to participate in construction. If you are interested in joining us, please follow our latest news. Branche hopes to create a new paradigm for the common network, rather than just another useless web3 project. "Branchism" is a name that reflects our ideology of branching, and we hope to exist in a diversified and personalized form. If you want to learn more about Branche's philosophy, please read our blog.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2", contenteditable="false") Building and Deploying dApps with Branche
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche is not a Layer 1 public chain, but a data protocol, so any developer can use Branche's protocol technology and development tools to develop and release their own dApps. Branche's applications have features such as off-chain contracts, zero-knowledge verification, and self-owned data services, opening up new possibilities for seamless web3 applications. Developers can build their own scenario applications and services based on the Branche protocol, and jointly build a more complete privacy data ecosystem. If you want to learn more about Branche's development tools, please visit the Branche docs.
+                            p
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl", contenteditable="false") P12
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") Challenges and Potential risks of Branche
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") Branche is building a non-monopolistic data ecosystem, which naturally faces many difficult challenges and risks. The biggest challenge we believe is "technology" and "compromise": Branche faces many technical difficulties, including ZKP, TEE, MPC, P2P, DID, DMP, LLM, ZKML, etc., each with different difficulties and technical details to be overcome. We believe that we should persist in doing difficult but correct things;
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500") However, we believe that compromise is a more challenging existence. It is well known that the essence of Web2 Internet is to profit from selling user data. What Branche wants to do is nothing more than to break all the patterns of the "old world". Naturally, the road is very difficult and long. We can see that it is full of thorns. Whether it is facing the legalization of privacy processing or the siege of Web2 data giants, these challenges will inevitably be encountered in our visible future. Naturally, Branche's road must also make compromises for these difficulties.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false") We believe that the world is getting better little by little. Even if we just pull the world back a little bit from the disgusting end, it is something we hope to achieve. Even if the things we make are not as perfect as we thought, it is called "politics is the art of compromise". We are not sure whether we can call Branche a new form of revolution or just an idealistic joke. This will be decided by the people (or AI) who write history in the future; Branche's potential risks can be encountered in many ways, corresponding to the beautiful vision it portrays.
+            section(class="py-20 xl:pt-24 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full lg:w-1/2 px-4 mb-5 lg:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl", contenteditable="false") P13
+                            h3(class="mb-5 text-3xl md:text-4xl text-coolGray-900 font-bold tracking-tighter", contenteditable="false") How does Branche compare to existing Web3 projects and solutions?
+                            p(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold", contenteditable="false")
+                            ul
+                                li(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold") As there are currently no projects that directly compete with Branche, we will compare it to the DID and AI tracks, although Branche is not limited to AI DID projects.
+                                li(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold") The core of the DID track currently consists of three types of projects: 1. Open-source idealists 2. Web3 application developers 3. Web3 technology developers.
+                            p
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            h2(class="text-2xl font-bold pb-2") Open-source idealists:
+                            ol
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500 p-2") The W3C DID project led by Solid (Inrupt) has limited use cases, outdated technology, lacks innovation and practicality, and can only serve the old ecosystem.
+                            h2(class="text-2xl font-bold pb-2") Web3 pragmatism:
+                            ol
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500 p-2") There are currently many DID projects in Web3, but most of them focus on domain names, event platforms, identity aggregation, and PFP, and are expected to operate through airdrops without truly achieving PMF. Few of them use identity data technology to enter application scenarios.
+                            h2(class="text-2xl font-bold pb-2") Web3 technos:
+                            ol
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500 p-2") Currently, we believe that zCloak is doing particularly well in terms of technology, and its zkID and validID are very good examples of zero-knowledge certificate technology implementation.
+                            p
+                        div(class="w-full lg:w-1/2 px-4")
+                            p(class="mb-5 text-lg font-medium leading-7 text-coolGray-500")
+                                span(class="mb-6 text-lg md:text-xl leading-8 text-coolGray-500 font-semibold", contenteditable="false") The AI track is mainly focused on LLM and GPT-based applications, where the former focuses on model-level innovation/reconstruction and the latter on constructing usage scenarios using existing interfaces/open-source models.
+                            ol(class="mb-5 list-decimal list-inside text-lg font-medium leading-7 text-coolGray-500")
+                            p
+                            p(class="text-lg font-medium leading-7 text-coolGray-500", contenteditable="false")
+                            ul
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500 p-2") We believe that we are working on a more fundamental protocol for LLM. In the foreseeable future, LLM will surely be a combination of local and cloud services, and will require more user context and taste adjustment locally. If LLM is likened to the language and logical ability of the brain, we are working on the memory and second brain, i.e., the external brain automation component.
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500 p-2") As for comparing with GPT-based applications, even the applications with many users currently have no barriers; most of them are just shells and some very traffic-oriented services. The cost of satisfying these needs is very low, and there is no competition threshold. We see that most of the users are just trying out or using the service for free.
+                                li(class="mb-5 text-lg font-medium leading-7 text-coolGray-500 p-2") In the AI aspect, Branche emphasizes personalized AI and data autonomy. We aim to transform from the profit-oriented enterprise intelligence of large enterprises to a self-owned AI assistant that serves every individual. The focus of our AI is on each individual's value and the emphasis that everyone has the right to use customized AI. Therefore, we hope to develop a modular and combinable personalized AI engine.
+                            p
+            section(class="bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto py-3")
+                    div(class="max-w-4xl mx-auto text-center")
+                        p(class="mb-6 text-lg md:text-xl font-heading font-medium text-coolGray-500") The whitepaper is still in the process of evolving, we are always open for critics and opinion about anything about branche, also there are possible errors within. If you find any errors or inaccurate wordings, feel free to contact us and help us improve.
+                        |       
+                        a(class="inline-block py-3 px-7 w-full md:w-auto text-lg leading-7 text-green-50 bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm", href="#") Contacts
+            section(class="bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="pb-11 mx-auto max-w-4xl pt-12")
+                        a(class="block md:mx-auto mb-5 max-w-max", href="#")
+                            svg(xmlns="http://www.w3.org/2000/svg", width="1064", height="176", viewbox="0 0 1064 176", fill="none", class="text-green-500 max-w-xs")
+                                path(fill-rule="evenodd", clip-rule="evenodd", d="M118.925 30.3465L112.177 68.6164L83.4097 68.739H14.1025L20.8721 30.3465L27.5475 30.3465C36.8119 29.2478 43.6329 26.3959 48.2528 22.3527C52.6872 18.4719 56.859 11.9514 58.1554 0.15427L94.3675 0C93.5725 11.3832 90.9912 21.5524 86.6491 30.3465L118.925 30.3465ZM25.6213 174.79H64.4816L69.5976 146.481L81.6327 78.2271L42.6479 78.2271L41.4887 84.8011C38.798 93.734 34.8049 99.9561 30.0209 103.804C25.429 107.497 18.2832 110.473 6.4401 109.701L0 145.336C11.3484 146.53 21.8113 145.754 31.2259 143.005L25.6213 174.79ZM81.3754 144.723L88.1235 106.453L116.89 106.331H186.198L179.428 144.723L172.753 144.723C163.488 145.822 156.667 148.674 152.047 152.717C147.613 156.598 143.441 163.118 142.145 174.916L105.933 175.07C106.728 163.687 109.309 153.517 113.651 144.723L81.3754 144.723ZM174.379 0.279844H135.518L130.402 28.5884L118.367 96.8426H157.352L158.511 90.2686C161.202 81.3358 165.195 75.1136 169.979 71.266C174.571 67.5729 181.717 64.5967 193.56 65.3686L200 29.7335C188.652 28.5397 178.189 29.3159 168.774 32.065L174.379 0.279844ZM317.868 1L308.68 53.9262C308.959 53.7492 309.24 53.5726 309.525 53.3964C320.845 46.3776 334.433 42.9242 347.689 45.327C361.273 47.7892 373.361 56.2151 381.305 70.7007C390.132 86.7965 387.225 108.442 378.642 125.238C369.868 142.406 353.338 158.149 330.571 159.845C318.773 160.723 304.333 157.976 293.145 148.878C292.865 148.651 292.589 148.42 292.315 148.187L290.873 156.496H268L278.479 96.1386L278.395 96.1129C278.462 95.891 278.53 95.6681 278.599 95.4444L294.996 1H317.868ZM299.546 106.539L300.554 100.733C302.362 94.9581 304.02 90.4791 306.65 86.319C309.444 81.9004 313.687 77.3314 321.399 72.5495C328.859 67.9248 336.843 66.2639 343.67 67.5013C350.168 68.6792 356.671 72.6478 361.546 81.5366C365.489 88.7276 365.203 102.013 358.575 114.983C352.137 127.58 341.436 136.438 328.898 137.372C321.299 137.937 313.015 135.99 307.362 131.393C302.398 127.356 298.05 120.161 299.546 106.539ZM863.07 51.9519L871.855 1H848.987L822.178 156.496H845.046L854.039 104.336C856.227 95.0488 859.017 88.1481 862.555 82.8249C866.315 77.1658 871.242 72.8027 878.256 69.2954C886.607 65.1201 900.216 59.9618 912.833 70.777C916.871 74.2378 918.837 81.0337 918.62 90.4886C918.461 97.4265 917.303 103.138 916.473 107.233L916.472 107.234L916.472 107.235L916.472 107.237C916.189 108.629 915.945 109.835 915.79 110.838C915.464 112.957 912.915 125.908 910.337 138.848C909.07 145.202 907.827 151.406 906.901 156.021L906.805 156.496H929.79C930.582 152.547 931.503 147.941 932.438 143.252C934.93 130.745 937.639 117.028 938.064 114.264L938.069 114.235C938.074 114.207 938.083 114.156 938.097 114.08L938.11 114.009L938.123 113.941L938.141 113.849L938.163 113.738L938.201 113.543C938.262 113.243 938.327 112.924 938.404 112.549L938.408 112.527L938.556 111.802C938.841 110.401 939.204 108.581 939.564 106.479C940.282 102.299 941.015 96.8701 941.15 91.005C941.403 79.9766 939.612 64.0491 927.499 53.6667C903.309 32.9321 877.105 44.6755 868.178 49.1389C866.41 50.0231 864.708 50.9599 863.07 51.9519ZM1053.35 57.4168C1062.8 69.0308 1065.42 84.8113 1061.9 100.906L1060.09 109.171L972.874 109.171C972.813 116.524 974.539 122.769 977.578 127.341C981.453 133.171 988.389 137.716 1000.54 137.716C1013.32 137.716 1021.68 133.756 1027.24 128.819C1030.27 126.134 1032.65 122.99 1034.47 119.688H1057.32C1054.52 128.137 1049.47 137.21 1041.21 144.548C1031.54 153.132 1018.12 158.75 1000.54 158.75C982.343 158.75 968.356 151.464 960.061 138.983C952.063 126.95 950.347 111.587 953.01 96.7916C954.842 86.6136 959.959 73.6926 969.097 62.8232C978.394 51.7646 992.113 42.584 1010.66 41.2172C1028.59 39.8965 1043.77 45.6533 1053.35 57.4168ZM977.752 88.138C979.621 84.1297 982.09 80.054 985.197 76.3583C991.56 68.7892 1000.34 63.0684 1012.21 62.1936C1024.71 61.2726 1032.63 65.2813 1037.04 70.6983C1040.4 74.8259 1042.51 80.7397 1042.37 88.138H977.752ZM715.106 78.6907C722.544 63.4433 739.669 41.1887 771.807 41.1887C787.057 41.1887 800.123 45.8904 809.036 55.742C816.601 64.1032 820.068 74.953 820.357 86.6355H797.815C797.544 79.3587 795.374 74.2312 792.325 70.8616C788.75 66.9101 782.473 63.7243 771.807 63.7243C752.113 63.7243 741.056 76.8948 735.36 88.5708C732.723 93.9775 730.88 104.149 732.54 113.957C734.157 123.509 738.606 130.531 746.347 133.65C761.429 139.728 780.781 132.092 790.591 115.181H815.27C803.732 146.965 769.525 167.288 737.924 154.552C720.5 147.531 712.741 132.017 710.321 117.719C707.943 103.676 710.232 88.6833 715.106 78.6907ZM686.406 156.496H663.421L663.516 156.021C664.443 151.406 665.686 145.203 666.952 138.848C669.531 125.908 672.08 112.958 672.406 110.838C672.56 109.838 672.804 108.635 673.085 107.246L673.086 107.244L673.086 107.24L673.087 107.239L673.087 107.237C673.918 103.142 675.077 97.429 675.236 90.489C675.452 81.0341 673.487 74.2381 669.449 70.7774C656.831 59.9621 643.222 65.1205 634.872 69.2957C627.857 72.803 622.931 77.1662 619.17 82.8252C615.688 88.065 612.93 94.8333 610.758 103.902L601.673 156.496H578.804L587.764 104.62C587.768 103.86 587.849 103.088 588.014 102.316C588.224 101.328 588.442 100.351 588.669 99.3839L598.137 44.5692H621.006L619.736 51.9221C621.358 50.9413 623.043 50.0145 624.794 49.1393C633.721 44.6759 659.925 32.9325 684.115 53.667C696.228 64.0495 698.018 79.977 697.765 91.0054C697.631 96.8705 696.897 102.299 696.18 106.48C695.819 108.581 695.457 110.402 695.172 111.803C695.127 112.02 695.087 112.219 695.049 112.404L694.921 113.029L694.857 113.346L694.817 113.543C694.794 113.659 694.774 113.76 694.756 113.85C694.747 113.898 694.739 113.942 694.731 113.983L694.713 114.08L694.698 114.161L694.688 114.214L694.682 114.25L694.68 114.262L694.68 114.265C694.254 117.028 691.545 130.745 689.053 143.252C688.119 147.942 687.197 152.548 686.406 156.496ZM473.745 72.1081C481.977 58.6765 498.183 41.5637 525.794 41.5637C537.954 41.5637 549.638 45.4148 558.579 52.8873L560.054 44.5684H582.94L563.099 156.495H540.212L541.504 149.207C539.772 150.299 538.006 151.303 536.213 152.216C521.225 159.85 503.141 161.658 488.181 153.663C469.325 143.584 463.218 126.296 463.125 110.631C463.035 95.5184 468.379 80.8633 473.745 72.1081ZM551.441 91.4746C551.338 92.2134 551.31 92.9454 551.35 93.6631L549.682 103.077C549.507 103.469 549.354 103.874 549.222 104.293C545.106 117.405 536.059 127.005 525.986 132.135C515.715 137.366 505.629 137.435 498.804 133.788C489.116 128.609 485.718 120.266 485.66 110.498C485.599 100.177 489.458 89.5964 492.959 83.8844C498.999 74.0292 509.084 64.0993 525.794 64.0993C534.261 64.0993 541.266 67.1038 545.727 71.6567C550.011 76.0286 552.678 82.5377 551.441 91.4746ZM431.496 44.7804L429.627 53.9306C441.199 47.2623 454.529 44.5889 468.007 44.7804L463.773 67.3642C453.901 67.7753 445.287 70.3334 438.462 74.9696C430.603 80.3084 424.081 89.0965 420.938 103.161H420.9L411.445 156.496H388.558L398.152 102.373C398.184 102.07 398.228 101.765 398.286 101.46C398.382 100.948 398.482 100.438 398.585 99.9321L408.609 44.7804H431.496Z", fill="#191A19")
+                        div(class="flex flex-wrap justify-center -mx-3 lg:-mx-6")
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="product.html") Product
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="vision.html") Vision
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="ecosystem.html") Ecosystem
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="whitepaper.html") Whitepaper
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="about.html") About
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="waitlist.html") Waitlist
+                div(class="border-b border-coolGray-100")
+                div(class="container px-4 mx-auto")
+                    p(class="py-10 md:pb-20 text-lg md:text-xl text-coolGray-400 font-medium text-center") © 2023 Branche. All rights reserved.
+        script(src="https://cdn.jsdelivr.net/npm/apexcharts")
+        script(src="js/charts-demo.js")

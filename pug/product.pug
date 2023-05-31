@@ -1,0 +1,322 @@
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap")
+        link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="icon", type="image/png", sizes="32x32", href="shuffle-for-tailwind.png")
+        script(src="js/main.js")
+    body(class="antialiased bg-body text-body font-body")
+        div(class="")
+            section(class="bg-white")
+                nav(class="flex justify-between p-6 px-4")
+                    div(class="flex justify-between items-center w-full")
+                        div(class="xl:w-1/3")
+                            a(class="block max-w-max", href="index.html")
+                                img(class="h-8", src="images/Group-24.png", alt="")
+                        div(class="hidden xl:block xl:w-1/3")
+                            ul(class="flex justify-center")
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="product.html") Product
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="vision.html") Vision
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="ecosystem.html") Ecosystem
+                                li
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="whitepaper.html") Whitepaper
+                        div(class="hidden xl:block xl:w-1/3")
+                            div(class="flex items-center justify-end")
+                                a(class="inline-block py-2 px-4 mr-2 leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium rounded-md", href="about.html") About
+                                a(class="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Waitlist
+                    button(class="navbar-burger self-center xl:hidden")
+                        svg(width="35", height="35", viewbox="0 0 32 32", fill="none", xmlns="http://www.w3.org/2000/svg")
+                            rect(class="text-coolGray-50", width="32", height="32", rx="6", fill="currentColor")
+                            path(class="text-coolGray-500", d="M7 12H25C25.2652 12 25.5196 11.8946 25.7071 11.7071C25.8946 11.5196 26 11.2652 26 11C26 10.7348 25.8946 10.4804 25.7071 10.2929C25.5196 10.1054 25.2652 10 25 10H7C6.73478 10 6.48043 10.1054 6.29289 10.2929C6.10536 10.4804 6 10.7348 6 11C6 11.2652 6.10536 11.5196 6.29289 11.7071C6.48043 11.8946 6.73478 12 7 12ZM25 15H7C6.73478 15 6.48043 15.1054 6.29289 15.2929C6.10536 15.4804 6 15.7348 6 16C6 16.2652 6.10536 16.5196 6.29289 16.7071C6.48043 16.8946 6.73478 17 7 17H25C25.2652 17 25.5196 16.8946 25.7071 16.7071C25.8946 16.5196 26 16.2652 26 16C26 15.7348 25.8946 15.4804 25.7071 15.2929C25.5196 15.1054 25.2652 15 25 15ZM25 20H7C6.73478 20 6.48043 20.1054 6.29289 20.2929C6.10536 20.4804 6 20.7348 6 21C6 21.2652 6.10536 21.5196 6.29289 21.7071C6.48043 21.8946 6.73478 22 7 22H25C25.2652 22 25.5196 21.8946 25.7071 21.7071C25.8946 21.5196 26 21.2652 26 21C26 20.7348 25.8946 20.4804 25.7071 20.2929C25.5196 20.1054 25.2652 20 25 20Z", fill="currentColor")
+                div(class="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50")
+                    div(class="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-white")
+                        nav(class="relative p-6 h-full overflow-y-auto")
+                            div(class="flex flex-col justify-between h-full")
+                                a(class="inline-block", href="#")
+                                    img(class="h-8", src="flex-ui-assets/logos/flex-ui-green-light.svg", alt="")
+                                ul(class="py-6")
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Product
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Features
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Pricing
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Resources
+                                div(class="flex flex-wrap")
+                                    div(class="w-full mb-2")
+                                        a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium text-center rounded-md", href="#") Log In
+                                    div(class="w-full")
+                                        a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Sign Up
+                        a(class="navbar-close absolute top-5 p-4 right-3", href="#")
+                            svg(width="12", height="12", viewbox="0 0 12 12", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                path(d="M6.94004 6L11.14 1.80667C11.2656 1.68113 11.3361 1.51087 11.3361 1.33333C11.3361 1.1558 11.2656 0.985537 11.14 0.860002C11.0145 0.734466 10.8442 0.66394 10.6667 0.66394C10.4892 0.66394 10.3189 0.734466 10.1934 0.860002L6.00004 5.06L1.80671 0.860002C1.68117 0.734466 1.51091 0.663941 1.33337 0.663941C1.15584 0.663941 0.985576 0.734466 0.860041 0.860002C0.734505 0.985537 0.66398 1.1558 0.66398 1.33333C0.66398 1.51087 0.734505 1.68113 0.860041 1.80667L5.06004 6L0.860041 10.1933C0.797555 10.2553 0.747959 10.329 0.714113 10.4103C0.680267 10.4915 0.662842 10.5787 0.662842 10.6667C0.662842 10.7547 0.680267 10.8418 0.714113 10.9231C0.747959 11.0043 0.797555 11.078 0.860041 11.14C0.922016 11.2025 0.99575 11.2521 1.07699 11.2859C1.15823 11.3198 1.24537 11.3372 1.33337 11.3372C1.42138 11.3372 1.50852 11.3198 1.58976 11.2859C1.671 11.2521 1.74473 11.2025 1.80671 11.14L6.00004 6.94L10.1934 11.14C10.2554 11.2025 10.3291 11.2521 10.4103 11.2859C10.4916 11.3198 10.5787 11.3372 10.6667 11.3372C10.7547 11.3372 10.8419 11.3198 10.9231 11.2859C11.0043 11.2521 11.0781 11.2025 11.14 11.14C11.2025 11.078 11.2521 11.0043 11.286 10.9231C11.3198 10.8418 11.3372 10.7547 11.3372 10.6667C11.3372 10.5787 11.3198 10.4915 11.286 10.4103C11.2521 10.329 11.2025 10.2553 11.14 10.1933L6.94004 6Z", fill="#556987")
+            section(class="py-20 xl:pt-24 xl:pb-28 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") PRODUCT
+                    h3(class="mb-4 text-3xl md:text-5xl text-coolGray-900 font-bold tracking-tighter") Big changes, in Small Steps.
+                    |       
+                    p(class="mb-12 text-lg md:text-xl text-coolGray-500 font-medium") Branche is building a series of product & tools.
+                    |       
+                    div(class="flex flex-wrap justify-center -mx-4")
+                        div(class="w-full md:w-1/2 lg:w-1/3 p-4")
+                            div(class="flex flex-col items-center pt-10 px-8 pb-8 bg-coolGray-50 rounded-md shadow-md hover:scale-105 transition duration-500")
+                                span(class="inline-block py-px px-2 mb-6 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") CLIENT
+                                h3(class="mb-4 text-lg md:text-xl text-green-500 font-medium") Personal AI
+                                |       
+                                div(class="mb-4")
+                                    span(class="text-5xl text-coolGray-900 font-medium font-bold") Browser
+                                p(class="mb-7 text-lg md:text-xl text-coolGray-400 font-medium") Extension
+                                ul(class="self-start mb-8")
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Personal AI and Algorithms
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Capture Personal Profile Values
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Second Brain and Assistant
+                                    li(class="flex items-center text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Privacy First Data Security
+                                a(class="inline-block py-3 px-7 w-full text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Learn more
+                        div(class="w-full md:w-1/2 lg:w-1/3 p-4")
+                            div(class="flex flex-col items-center pt-10 px-8 pb-8 bg-coolGray-50 rounded-md shadow-md hover:scale-105 transition duration-500")
+                                span(class="inline-block py-px px-2 mb-6 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") PROTOCOL
+                                h3(class="mb-4 text-lg md:text-xl text-green-500 font-medium") ZK-DID Pod
+                                |       
+                                div(class="mb-4")
+                                    span(class="text-5xl text-coolGray-900 font-medium font-bold") Privacy
+                                p(class="mb-7 text-lg md:text-xl text-coolGray-400 font-medium") Data Protocol
+                                |       
+                                ul(class="self-start mb-8")
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Personal Data Wallet
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Off-chain Credientials
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Zero-Knowledge Attestation
+                                    li(class="flex items-center text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Zero-Knowledge Integrity Proof
+                                a(class="inline-block py-3 px-7 w-full text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Learn more
+                        div(class="w-full md:w-1/2 lg:w-1/3 p-4")
+                            div(class="flex flex-col items-center pt-10 px-8 pb-8 bg-coolGray-50 rounded-md shadow-md hover:scale-105 transition duration-500")
+                                span(class="inline-block py-px px-2 mb-6 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-9xl") DMP
+                                h3(class="mb-4 text-lg md:text-xl text-green-500 font-medium") Data DEX
+                                |       
+                                div(class="mb-4")
+                                    span(class="text-5xl text-coolGray-900 font-medium font-bold") Semantic
+                                p(class="mb-7 text-lg md:text-xl text-coolGray-400 font-medium") Data Engine
+                                |       
+                                ul(class="self-start mb-8")
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Decentralized DSP, SSP and DMP
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Zero-Knowledge Advertisement
+                                    li(class="flex items-center mb-3 text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span Anonymous Ads Target
+                                    li(class="flex items-center text-coolGray-500 font-medium")
+                                        img(class="mr-3", src="flex-ui-assets/elements/pricing/checkbox-green.svg")
+                                        span ZK-based data exchange
+                                a(class="inline-block py-3 px-7 w-full text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm", href="#") Learn more
+            section(class="py-24 md:pb-32 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="md:max-w-4xl mb-12 mx-auto text-center")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") ROADMAP
+                        h1(class="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter") Incoming Features, under development.
+                        |       
+                        p(class="text-lg md:text-xl text-coolGray-500 font-medium") To further empower our values and productivity with data, here's what will be in the branche roadmap.
+                        |       
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg")
+                                    svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                        path(d="M12.22 19.85c-.18.18-.5.21-.71 0a.504.504 0 0 1 0-.71l3.39-3.39-1.41-1.41-3.39 3.39c-.19.2-.51.19-.71 0a.504.504 0 0 1 0-.71l3.39-3.39-1.41-1.41-3.39 3.39c-.18.18-.5.21-.71 0a.513.513 0 0 1 0-.71l3.39-3.39-1.42-1.41-3.39 3.39c-.18.18-.5.21-.71 0a.513.513 0 0 1 0-.71L9.52 8.4l1.87 1.86c.95.95 2.59.94 3.54 0 .98-.98.98-2.56 0-3.54l-1.86-1.86.28-.28c.78-.78 2.05-.78 2.83 0l4.24 4.24c.78.78.78 2.05 0 2.83l-8.2 8.2zm9.61-6.78a4.008 4.008 0 0 0 0-5.66l-4.24-4.24a4.008 4.008 0 0 0-5.66 0l-.28.28-.28-.28a4.008 4.008 0 0 0-5.66 0L2.17 6.71a3.992 3.992 0 0 0-.4 5.19l1.45-1.45a2 2 0 0 1 .37-2.33l3.54-3.54c.78-.78 2.05-.78 2.83 0l3.56 3.56c.18.18.21.5 0 .71-.21.21-.53.18-.71 0L9.52 5.57l-5.8 5.79c-.98.97-.98 2.56 0 3.54.39.39.89.63 1.42.7a2.458 2.458 0 0 0 2.12 2.12 2.458 2.458 0 0 0 2.12 2.12c.07.54.31 1.03.7 1.42.47.47 1.1.73 1.77.73.67 0 1.3-.26 1.77-.73l8.21-8.19z")
+                                h3(class="mb-4 text-xl md:text-2xl leading-tight font-bold") zkHandShake
+                                p(class="text-coolGray-500 font-medium") A ZK-based matching on Knowledge, Social, Data Graph to quickly find similarity between two person.
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg")
+                                    svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                        path(d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16h-1.73L19 17.27V19zm0-3h-.85l-3 3h-1.62l3-3h-2.12l-3 3H9.8l3-3h-2.12l-3 3H5.84l3-3H6.72L5 17.72V5h14v11z")
+                                        path(d="m10.67 11 2 2 5.08-5.09-1.41-1.41-3.67 3.67-2-2-4.42 4.42L7.66 14z")
+                                h3(class="mb-4 text-xl md:text-2xl leading-tight font-bold") zkDSP
+                                p(class="text-coolGray-500 font-medium") A ZK-based Advertisement placing platform for advertiser to allow denctralized Ads placing.
+                                |       
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg")
+                                    svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                        path(d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z")
+                                h3(class="mb-4 text-xl md:text-2xl leading-tight font-bold") zkJob
+                                p(class="text-coolGray-500 font-medium") A ZK-based candidates & Jobs Matching Protocol to quicky match and CAPTCHA candidates to the job.
+                                |       
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg")
+                                    svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                        path(d="m14 6-1-2H5v17h2v-7h5l1 2h7V6h-6zm4 8h-4l-1-2H7V6h5l1 2h5v6z")
+                                h3(class="mb-4 text-xl md:text-2xl leading-tight font-bold") Branche Everlast
+                                |       
+                                p(class="text-coolGray-500 font-medium") A Social Contract to transform Branche into a permissionless, autonomous, everlasting protocol.
+                                |       
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg")
+                                    svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                        path(d="M8 11H1C0.734784 11 0.48043 11.1054 0.292893 11.2929C0.105357 11.4804 0 11.7348 0 12V19C0 19.2652 0.105357 19.5196 0.292893 19.7071C0.48043 19.8946 0.734784 20 1 20H8C8.26522 20 8.51957 19.8946 8.70711 19.7071C8.89464 19.5196 9 19.2652 9 19V12C9 11.7348 8.89464 11.4804 8.70711 11.2929C8.51957 11.1054 8.26522 11 8 11ZM7 18H2V13H7V18ZM19 0H12C11.7348 0 11.4804 0.105357 11.2929 0.292893C11.1054 0.48043 11 0.734784 11 1V8C11 8.26522 11.1054 8.51957 11.2929 8.70711C11.4804 8.89464 11.7348 9 12 9H19C19.2652 9 19.5196 8.89464 19.7071 8.70711C19.8946 8.51957 20 8.26522 20 8V1C20 0.734784 19.8946 0.48043 19.7071 0.292893C19.5196 0.105357 19.2652 0 19 0ZM18 7H13V2H18V7ZM19 11H12C11.7348 11 11.4804 11.1054 11.2929 11.2929C11.1054 11.4804 11 11.7348 11 12V19C11 19.2652 11.1054 19.5196 11.2929 19.7071C11.4804 19.8946 11.7348 20 12 20H19C19.2652 20 19.5196 19.8946 19.7071 19.7071C19.8946 19.5196 20 19.2652 20 19V12C20 11.7348 19.8946 11.4804 19.7071 11.2929C19.5196 11.1054 19.2652 11 19 11ZM18 18H13V13H18V18ZM8 0H1C0.734784 0 0.48043 0.105357 0.292893 0.292893C0.105357 0.48043 0 0.734784 0 1V8C0 8.26522 0.105357 8.51957 0.292893 8.70711C0.48043 8.89464 0.734784 9 1 9H8C8.26522 9 8.51957 8.89464 8.70711 8.70711C8.89464 8.51957 9 8.26522 9 8V1C9 0.734784 8.89464 0.48043 8.70711 0.292893C8.51957 0.105357 8.26522 0 8 0ZM7 7H2V2H7V7Z", fill="currentColor")
+                                h3(class="mb-4 text-xl md:text-2xl leading-tight font-bold") Third-party Enables
+                                |       
+                                p(class="text-coolGray-500 font-medium") A open SDK and tools to enable third party apps to be built on top of branche protocol.
+                                |       
+                        div(class="w-full md:w-1/2 lg:w-1/3 px-4")
+                            div(class="h-full p-8 text-center hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="inline-flex h-16 w-16 mb-6 mx-auto items-center justify-center text-white bg-green-500 rounded-lg")
+                                    svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                        path(d="M12 3 1 11.4l1.21 1.59L4 11.62V21h16v-9.38l1.79 1.36L23 11.4 12 3zm6 16H6v-8.9l6-4.58 6 4.58V19zm-9-5c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1zm3-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm3 1c0-.55.45-1 1-1s1 .45 1 1-.45 1-1 1-1-.45-1-1z")
+                                h3(class="mb-4 text-xl md:text-2xl leading-tight font-bold") Branche DAO
+                                |       
+                                p(class="text-coolGray-500 font-medium") A semi-autonomous DAO that govern & improve the operation of branche protocol.
+                                |       
+            section(class="py-24 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="text-center")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium rounded-full shadow-sm") Application
+                        h3(class="mb-10 mx-auto text-3xl md:text-4xl leading-tight text-coolGray-900 font-bold tracking-tighter max-w-5xl") Boosting your values through autonomous data.
+                        |       
+                        div(class="relative mb-10 mx-auto max-w-max")
+                            img(class="absolute top-1/2 transform -translate-y-1/2 w-1/2 md:w-auto text-yellow-400", src="flex-ui-assets/elements/circle1-yellow.svg", alt="")
+                            img(class="absolute top-1/2 right-0 transform -translate-y-1/2 w-1/4 md:w-auto text-blue-500", src="flex-ui-assets/elements/dots1-blue.svg", alt="")
+                            img(class="relative z-10 max-w-3xl rounded-4xl", src="images/1270-760.png", alt="")
+                        p(class="mb-6 mx-auto text-lg md:text-xl text-coolGray-500 font-medium max-w-3xl") Our philosophy is simple — To empower users with AI & Data like the big tech had for themselves.
+                        |       
+                        div(class="flex flex-wrap justify-center")
+                            div(class="w-full md:w-auto py-1 md:py-0 md:mr-6")
+                                a(class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-green-50 font-medium text-center bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-green-500 rounded-md shadow-sm", href="#") Waitlist
+                            div(class="w-full md:w-auto py-1 md:py-0")
+                                a(class="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-coolGray-800 font-medium text-center bg-white hover:bg-coolGray-100 focus:ring-2 focus:ring-coolGray-200 focus:ring-opacity-50 border border-coolGray-200 rounded-md shadow-sm", href="#") About
+            section(class="py-24 bg-white overflow-hidden", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="md:max-w-4xl mb-16 md:mb-20")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") OUR FIRST PRODUCT
+                        h1(class="mb-4 text-3xl md:text-4xl leading-tight font-bold tracking-tighter") Branche Browser Extension.
+                        |       
+                        p(class="text-lg md:text-xl text-coolGray-500 font-medium") Branche is a browser extension based on AI and DID which users could use free AI & enhance their DID value. providing a more intelligent and valuable browsing experience.
+                        |       
+                    div(class="flex flex-wrap lg:items-center -mx-4")
+                        div(class="w-full md:w-1/2 px-4 mb-8 md:mb-0")
+                            div(class="flex flex-wrap p-8 text-center md:text-left hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="w-full md:w-auto mb-6 md:mb-0 md:pr-6")
+                                    div(class="inline-flex h-14 w-14 mx-auto items-center justify-center text-white rounded-lg bg-black")
+                                        svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                            path(d="M7 10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm8.01-1c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zM16.5 3C13.47 3 11 5.47 11 8.5s2.47 5.5 5.5 5.5S22 11.53 22 8.5 19.53 3 16.5 3zm0 9c-1.93 0-3.5-1.57-3.5-3.5S14.57 5 16.5 5 20 6.57 20 8.5 18.43 12 16.5 12z")
+                                div(class="w-full md:flex-1 md:pt-3")
+                                    h3(class="mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-bold") Augmented Brain
+                                    |       
+                                    p(class="text-coolGray-500 font-medium") High-dimensional database generated from your web history and knowledge, function as your second brain.
+                                    |       
+                            div(class="flex flex-wrap p-8 text-center md:text-left hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="w-full md:w-auto mb-6 md:mb-0 md:pr-6")
+                                    div(class="inline-flex h-14 w-14 mx-auto items-center justify-center text-white rounded-lg bg-black")
+                                        svg(xmlns="http://www.w3.org/2000/svg", width="24", height="24", viewbox="0 0 24 24", class="fill-current")
+                                            path(d="M18.39 14.56C16.71 13.7 14.53 13 12 13s-4.71.7-6.39 1.56A2.97 2.97 0 0 0 4 17.22V20h16v-2.78c0-1.12-.61-2.15-1.61-2.66zM18 18H6v-.78c0-.38.2-.72.52-.88C7.71 15.73 9.63 15 12 15c2.37 0 4.29.73 5.48 1.34.32.16.52.5.52.88V18zm-8.22-6h4.44c1.21 0 2.14-1.06 1.98-2.26l-.32-2.45C15.57 5.39 13.92 4 12 4S8.43 5.39 8.12 7.29L7.8 9.74c-.16 1.2.77 2.26 1.98 2.26zm.32-4.41C10.26 6.67 11.06 6 12 6s1.74.67 1.9 1.59l.32 2.41H9.78l.32-2.41z")
+                                div(class="w-full md:flex-1 md:pt-3")
+                                    h3(class="mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-bold") Autonomous Data Persona
+                                    |       
+                                    p(class="text-coolGray-500 font-medium") Personal AI that focus on sketching your data persona. Privacy preserving data cognifying for your own use.
+                                    |       
+                            div(class="flex flex-wrap p-8 text-center md:text-left hover:bg-white rounded-md hover:shadow-xl transition duration-200")
+                                div(class="w-full md:w-auto mb-6 md:mb-0 md:pr-6")
+                                    div(class="inline-flex h-14 w-14 mx-auto items-center justify-center text-white rounded-lg bg-black")
+                                        svg(width="21", height="21", viewbox="0 0 24 24", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                            path(d="M10 13H3C2.73478 13 2.48043 13.1054 2.29289 13.2929C2.10536 13.4804 2 13.7348 2 14V21C2 21.2652 2.10536 21.5196 2.29289 21.7071C2.48043 21.8946 2.73478 22 3 22H10C10.2652 22 10.5196 21.8946 10.7071 21.7071C10.8946 21.5196 11 21.2652 11 21V14C11 13.7348 10.8946 13.4804 10.7071 13.2929C10.5196 13.1054 10.2652 13 10 13ZM9 20H4V15H9V20ZM21 2H14C13.7348 2 13.4804 2.10536 13.2929 2.29289C13.1054 2.48043 13 2.73478 13 3V10C13 10.2652 13.1054 10.5196 13.2929 10.7071C13.4804 10.8946 13.7348 11 14 11H21C21.2652 11 21.5196 10.8946 21.7071 10.7071C21.8946 10.5196 22 10.2652 22 10V3C22 2.73478 21.8946 2.48043 21.7071 2.29289C21.5196 2.10536 21.2652 2 21 2V2ZM20 9H15V4H20V9ZM21 13H14C13.7348 13 13.4804 13.1054 13.2929 13.2929C13.1054 13.4804 13 13.7348 13 14V21C13 21.2652 13.1054 21.5196 13.2929 21.7071C13.4804 21.8946 13.7348 22 14 22H21C21.2652 22 21.5196 21.8946 21.7071 21.7071C21.8946 21.5196 22 21.2652 22 21V14C22 13.7348 21.8946 13.4804 21.7071 13.2929C21.5196 13.1054 21.2652 13 21 13ZM20 20H15V15H20V20ZM10 2H3C2.73478 2 2.48043 2.10536 2.29289 2.29289C2.10536 2.48043 2 2.73478 2 3V10C2 10.2652 2.10536 10.5196 2.29289 10.7071C2.48043 10.8946 2.73478 11 3 11H10C10.2652 11 10.5196 10.8946 10.7071 10.7071C10.8946 10.5196 11 10.2652 11 10V3C11 2.73478 10.8946 2.48043 10.7071 2.29289C10.5196 2.10536 10.2652 2 10 2V2ZM9 9H4V4H9V9Z", fill="currentColor")
+                                div(class="w-full md:flex-1 md:pt-3")
+                                    h3(class="mb-4 text-xl md:text-2xl leading-tight text-coolGray-900 font-bold") Personalized AI and Algorithms
+                                    |       
+                                    p(class="text-coolGray-500 font-medium") Personal AI that foucs on customizing service according to your own interest, retake control.
+                                    |       
+                        div(class="w-full md:w-1/2 p-12")
+                            div(class="relative mx-auto md:mr-0 max-w-max")
+                                img(src="images/src-0-2.png", alt="", class="rounded-4xl bg-black")
+            section(class="bg-white overflow-hidden py-24", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap lg:items-center -mx-4")
+                        div(class="w-full md:w-1/2 px-4 mb-16 md:mb-0")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") DATA PROTOCOL
+                            h1(class="mb-8 text-4xl md:text-5xl leading-tight text-coolGray-900 font-bold tracking-tighter") Restruct your Decentralized Identity.
+                            |       
+                            p(class="mb-6 text-lg md:text-xl text-coolGray-500 font-medium") With our zero-knowledge decentralized identity protocol, we help you retake every aspect of your identity in one single data pod, where you finally get to own and choice your data rights.
+                            |       
+                            a(class="inline-block py-4 px-5 w-full md:w-auto text-base leading-4 text-green-50 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md shadow-sm bg-black hover:bg-gray-900", href="#") Learn more
+                        div(class="w-full md:w-1/2 p-12")
+                            div(class="relative mx-auto md:mr-0 max-w-max")
+                                img(src="images/src-0-3.png", alt="")
+            section(class="overflow-hidden bg-black py-24", style="background-image: url('https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHwxM3x8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8MHx8fDE2ODU1Njc2MDN8MA&ixlib=rb-4.0.3&q=85&w=1920'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full md:w-1/2 px-12")
+                            div(class="relative mx-auto md:ml-0 max-w-max")
+                                img(src="images/src-0-4.png", alt="", class="rounded-4xl")
+                        div(class="w-full md:w-1/2 px-4")
+                            span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-900 bg-green-100 font-medium uppercase rounded-full shadow-sm") DATA ENGINE
+                            h2(class="mb-12 text-4xl md:text-5xl leading-tight text-white font-bold tracking-tighter") An open data engine
+                            div(class="flex flex-wrap -mx-4 text-center md:text-left")
+                                div(class="w-full md:w-1/2 px-4 mb-8")
+                                    div(class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-white") 1
+                                    h3(class="mb-2 text-xl text-white font-bold") Pseudonym
+                                    p(class="font-medium text-coolGray-400") All data shards are pesudo in the engine, supporting readability while maintaining anonymity.
+                                    |       
+                                div(class="w-full md:w-1/2 px-4 mb-8")
+                                    div(class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-white") 2
+                                    h3(class="mb-2 text-xl text-white font-bold") Zero-Knowledge
+                                    p(class="font-medium text-coolGray-400") Data interactions will be brought through ZKP-based VC, attesting integrity while preserving privacy.
+                                    |       
+                                div(class="w-full md:w-1/2 px-4 mb-8")
+                                    div(class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-white") 3
+                                    h3(class="mb-2 text-xl text-white font-bold") Semantic
+                                    p(class="font-medium text-coolGray-400") We are introducing a verbably programmable identity protocol for users to speak with data.
+                                    |       
+                                div(class="w-full md:w-1/2 px-4")
+                                    div(class="inline-flex items-center justify-center mb-4 w-12 h-12 text-xl text-coolGray-900 font-semibold rounded-full bg-white") 4
+                                    h3(class="mb-2 text-xl text-white font-bold") Permissionless
+                                    p(class="font-medium text-coolGray-400") Being a decentralized data engine supports permissionless access to a non-KYC identity solution.
+                                    |       
+            section(class="bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="pb-11 mx-auto max-w-4xl pt-12")
+                        a(class="block md:mx-auto mb-5 max-w-max", href="#")
+                            svg(xmlns="http://www.w3.org/2000/svg", width="1064", height="176", viewbox="0 0 1064 176", fill="none", class="text-green-500 max-w-xs")
+                                path(fill-rule="evenodd", clip-rule="evenodd", d="M118.925 30.3465L112.177 68.6164L83.4097 68.739H14.1025L20.8721 30.3465L27.5475 30.3465C36.8119 29.2478 43.6329 26.3959 48.2528 22.3527C52.6872 18.4719 56.859 11.9514 58.1554 0.15427L94.3675 0C93.5725 11.3832 90.9912 21.5524 86.6491 30.3465L118.925 30.3465ZM25.6213 174.79H64.4816L69.5976 146.481L81.6327 78.2271L42.6479 78.2271L41.4887 84.8011C38.798 93.734 34.8049 99.9561 30.0209 103.804C25.429 107.497 18.2832 110.473 6.4401 109.701L0 145.336C11.3484 146.53 21.8113 145.754 31.2259 143.005L25.6213 174.79ZM81.3754 144.723L88.1235 106.453L116.89 106.331H186.198L179.428 144.723L172.753 144.723C163.488 145.822 156.667 148.674 152.047 152.717C147.613 156.598 143.441 163.118 142.145 174.916L105.933 175.07C106.728 163.687 109.309 153.517 113.651 144.723L81.3754 144.723ZM174.379 0.279844H135.518L130.402 28.5884L118.367 96.8426H157.352L158.511 90.2686C161.202 81.3358 165.195 75.1136 169.979 71.266C174.571 67.5729 181.717 64.5967 193.56 65.3686L200 29.7335C188.652 28.5397 178.189 29.3159 168.774 32.065L174.379 0.279844ZM317.868 1L308.68 53.9262C308.959 53.7492 309.24 53.5726 309.525 53.3964C320.845 46.3776 334.433 42.9242 347.689 45.327C361.273 47.7892 373.361 56.2151 381.305 70.7007C390.132 86.7965 387.225 108.442 378.642 125.238C369.868 142.406 353.338 158.149 330.571 159.845C318.773 160.723 304.333 157.976 293.145 148.878C292.865 148.651 292.589 148.42 292.315 148.187L290.873 156.496H268L278.479 96.1386L278.395 96.1129C278.462 95.891 278.53 95.6681 278.599 95.4444L294.996 1H317.868ZM299.546 106.539L300.554 100.733C302.362 94.9581 304.02 90.4791 306.65 86.319C309.444 81.9004 313.687 77.3314 321.399 72.5495C328.859 67.9248 336.843 66.2639 343.67 67.5013C350.168 68.6792 356.671 72.6478 361.546 81.5366C365.489 88.7276 365.203 102.013 358.575 114.983C352.137 127.58 341.436 136.438 328.898 137.372C321.299 137.937 313.015 135.99 307.362 131.393C302.398 127.356 298.05 120.161 299.546 106.539ZM863.07 51.9519L871.855 1H848.987L822.178 156.496H845.046L854.039 104.336C856.227 95.0488 859.017 88.1481 862.555 82.8249C866.315 77.1658 871.242 72.8027 878.256 69.2954C886.607 65.1201 900.216 59.9618 912.833 70.777C916.871 74.2378 918.837 81.0337 918.62 90.4886C918.461 97.4265 917.303 103.138 916.473 107.233L916.472 107.234L916.472 107.235L916.472 107.237C916.189 108.629 915.945 109.835 915.79 110.838C915.464 112.957 912.915 125.908 910.337 138.848C909.07 145.202 907.827 151.406 906.901 156.021L906.805 156.496H929.79C930.582 152.547 931.503 147.941 932.438 143.252C934.93 130.745 937.639 117.028 938.064 114.264L938.069 114.235C938.074 114.207 938.083 114.156 938.097 114.08L938.11 114.009L938.123 113.941L938.141 113.849L938.163 113.738L938.201 113.543C938.262 113.243 938.327 112.924 938.404 112.549L938.408 112.527L938.556 111.802C938.841 110.401 939.204 108.581 939.564 106.479C940.282 102.299 941.015 96.8701 941.15 91.005C941.403 79.9766 939.612 64.0491 927.499 53.6667C903.309 32.9321 877.105 44.6755 868.178 49.1389C866.41 50.0231 864.708 50.9599 863.07 51.9519ZM1053.35 57.4168C1062.8 69.0308 1065.42 84.8113 1061.9 100.906L1060.09 109.171L972.874 109.171C972.813 116.524 974.539 122.769 977.578 127.341C981.453 133.171 988.389 137.716 1000.54 137.716C1013.32 137.716 1021.68 133.756 1027.24 128.819C1030.27 126.134 1032.65 122.99 1034.47 119.688H1057.32C1054.52 128.137 1049.47 137.21 1041.21 144.548C1031.54 153.132 1018.12 158.75 1000.54 158.75C982.343 158.75 968.356 151.464 960.061 138.983C952.063 126.95 950.347 111.587 953.01 96.7916C954.842 86.6136 959.959 73.6926 969.097 62.8232C978.394 51.7646 992.113 42.584 1010.66 41.2172C1028.59 39.8965 1043.77 45.6533 1053.35 57.4168ZM977.752 88.138C979.621 84.1297 982.09 80.054 985.197 76.3583C991.56 68.7892 1000.34 63.0684 1012.21 62.1936C1024.71 61.2726 1032.63 65.2813 1037.04 70.6983C1040.4 74.8259 1042.51 80.7397 1042.37 88.138H977.752ZM715.106 78.6907C722.544 63.4433 739.669 41.1887 771.807 41.1887C787.057 41.1887 800.123 45.8904 809.036 55.742C816.601 64.1032 820.068 74.953 820.357 86.6355H797.815C797.544 79.3587 795.374 74.2312 792.325 70.8616C788.75 66.9101 782.473 63.7243 771.807 63.7243C752.113 63.7243 741.056 76.8948 735.36 88.5708C732.723 93.9775 730.88 104.149 732.54 113.957C734.157 123.509 738.606 130.531 746.347 133.65C761.429 139.728 780.781 132.092 790.591 115.181H815.27C803.732 146.965 769.525 167.288 737.924 154.552C720.5 147.531 712.741 132.017 710.321 117.719C707.943 103.676 710.232 88.6833 715.106 78.6907ZM686.406 156.496H663.421L663.516 156.021C664.443 151.406 665.686 145.203 666.952 138.848C669.531 125.908 672.08 112.958 672.406 110.838C672.56 109.838 672.804 108.635 673.085 107.246L673.086 107.244L673.086 107.24L673.087 107.239L673.087 107.237C673.918 103.142 675.077 97.429 675.236 90.489C675.452 81.0341 673.487 74.2381 669.449 70.7774C656.831 59.9621 643.222 65.1205 634.872 69.2957C627.857 72.803 622.931 77.1662 619.17 82.8252C615.688 88.065 612.93 94.8333 610.758 103.902L601.673 156.496H578.804L587.764 104.62C587.768 103.86 587.849 103.088 588.014 102.316C588.224 101.328 588.442 100.351 588.669 99.3839L598.137 44.5692H621.006L619.736 51.9221C621.358 50.9413 623.043 50.0145 624.794 49.1393C633.721 44.6759 659.925 32.9325 684.115 53.667C696.228 64.0495 698.018 79.977 697.765 91.0054C697.631 96.8705 696.897 102.299 696.18 106.48C695.819 108.581 695.457 110.402 695.172 111.803C695.127 112.02 695.087 112.219 695.049 112.404L694.921 113.029L694.857 113.346L694.817 113.543C694.794 113.659 694.774 113.76 694.756 113.85C694.747 113.898 694.739 113.942 694.731 113.983L694.713 114.08L694.698 114.161L694.688 114.214L694.682 114.25L694.68 114.262L694.68 114.265C694.254 117.028 691.545 130.745 689.053 143.252C688.119 147.942 687.197 152.548 686.406 156.496ZM473.745 72.1081C481.977 58.6765 498.183 41.5637 525.794 41.5637C537.954 41.5637 549.638 45.4148 558.579 52.8873L560.054 44.5684H582.94L563.099 156.495H540.212L541.504 149.207C539.772 150.299 538.006 151.303 536.213 152.216C521.225 159.85 503.141 161.658 488.181 153.663C469.325 143.584 463.218 126.296 463.125 110.631C463.035 95.5184 468.379 80.8633 473.745 72.1081ZM551.441 91.4746C551.338 92.2134 551.31 92.9454 551.35 93.6631L549.682 103.077C549.507 103.469 549.354 103.874 549.222 104.293C545.106 117.405 536.059 127.005 525.986 132.135C515.715 137.366 505.629 137.435 498.804 133.788C489.116 128.609 485.718 120.266 485.66 110.498C485.599 100.177 489.458 89.5964 492.959 83.8844C498.999 74.0292 509.084 64.0993 525.794 64.0993C534.261 64.0993 541.266 67.1038 545.727 71.6567C550.011 76.0286 552.678 82.5377 551.441 91.4746ZM431.496 44.7804L429.627 53.9306C441.199 47.2623 454.529 44.5889 468.007 44.7804L463.773 67.3642C453.901 67.7753 445.287 70.3334 438.462 74.9696C430.603 80.3084 424.081 89.0965 420.938 103.161H420.9L411.445 156.496H388.558L398.152 102.373C398.184 102.07 398.228 101.765 398.286 101.46C398.382 100.948 398.482 100.438 398.585 99.9321L408.609 44.7804H431.496Z", fill="#191A19")
+                        div(class="flex flex-wrap justify-center -mx-3 lg:-mx-6")
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="product.html") Product
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="vision.html") Vision
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="ecosystem.html") Ecosystem
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="whitepaper.html") Whitepaper
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="about.html") About
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="waitlist.html") Waitlist
+                div(class="border-b border-coolGray-100")
+                div(class="container px-4 mx-auto")
+                    p(class="py-10 md:pb-20 text-lg md:text-xl text-coolGray-400 font-medium text-center") © 2023 Branche. All rights reserved.
+        script(src="https://cdn.jsdelivr.net/npm/apexcharts")
+        script(src="js/charts-demo.js")

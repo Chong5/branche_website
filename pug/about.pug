@@ -1,0 +1,297 @@
+html(lang="en")
+    head
+        title Page title
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap")
+        link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="icon", type="image/png", sizes="32x32", href="shuffle-for-tailwind.png")
+        script(src="js/main.js")
+    body(class="antialiased bg-body text-body font-body")
+        div(class="")
+            section(class="bg-white")
+                nav(class="flex justify-between p-6 px-4")
+                    div(class="flex justify-between items-center w-full")
+                        div(class="xl:w-1/3")
+                            a(class="block max-w-max", href="index.html")
+                                img(class="h-8", src="images/Group-24.png", alt="")
+                        div(class="hidden xl:block xl:w-1/3")
+                            ul(class="flex justify-center")
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="product.html") Product
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="vision.html") Vision
+                                li(class="mr-12")
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="ecosystem.html") Ecosystem
+                                li
+                                    a(class="text-coolGray-500 hover:text-coolGray-900 font-medium", href="whitepaper.html") Whitepaper
+                        div(class="hidden xl:block xl:w-1/3")
+                            div(class="flex items-center justify-end")
+                                a(class="inline-block py-2 px-4 mr-2 leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium rounded-md", href="about.html") About
+                                a(class="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Waitlist
+                    button(class="navbar-burger self-center xl:hidden")
+                        svg(width="35", height="35", viewbox="0 0 32 32", fill="none", xmlns="http://www.w3.org/2000/svg")
+                            rect(class="text-coolGray-50", width="32", height="32", rx="6", fill="currentColor")
+                            path(class="text-coolGray-500", d="M7 12H25C25.2652 12 25.5196 11.8946 25.7071 11.7071C25.8946 11.5196 26 11.2652 26 11C26 10.7348 25.8946 10.4804 25.7071 10.2929C25.5196 10.1054 25.2652 10 25 10H7C6.73478 10 6.48043 10.1054 6.29289 10.2929C6.10536 10.4804 6 10.7348 6 11C6 11.2652 6.10536 11.5196 6.29289 11.7071C6.48043 11.8946 6.73478 12 7 12ZM25 15H7C6.73478 15 6.48043 15.1054 6.29289 15.2929C6.10536 15.4804 6 15.7348 6 16C6 16.2652 6.10536 16.5196 6.29289 16.7071C6.48043 16.8946 6.73478 17 7 17H25C25.2652 17 25.5196 16.8946 25.7071 16.7071C25.8946 16.5196 26 16.2652 26 16C26 15.7348 25.8946 15.4804 25.7071 15.2929C25.5196 15.1054 25.2652 15 25 15ZM25 20H7C6.73478 20 6.48043 20.1054 6.29289 20.2929C6.10536 20.4804 6 20.7348 6 21C6 21.2652 6.10536 21.5196 6.29289 21.7071C6.48043 21.8946 6.73478 22 7 22H25C25.2652 22 25.5196 21.8946 25.7071 21.7071C25.8946 21.5196 26 21.2652 26 21C26 20.7348 25.8946 20.4804 25.7071 20.2929C25.5196 20.1054 25.2652 20 25 20Z", fill="currentColor")
+                div(class="navbar-menu hidden fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50")
+                    div(class="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-white")
+                        nav(class="relative p-6 h-full overflow-y-auto")
+                            div(class="flex flex-col justify-between h-full")
+                                a(class="inline-block", href="#")
+                                    img(class="h-8", src="flex-ui-assets/logos/flex-ui-green-light.svg", alt="")
+                                ul(class="py-6")
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Product
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Features
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Pricing
+                                    li
+                                        a(class="block py-3 px-4 text-coolGray-500 hover:text-coolGray-900 font-medium hover:bg-coolGray-50 rounded-md", href="#") Resources
+                                div(class="flex flex-wrap")
+                                    div(class="w-full mb-2")
+                                        a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium text-center rounded-md", href="#") Log In
+                                    div(class="w-full")
+                                        a(class="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md", href="#") Sign Up
+                        a(class="navbar-close absolute top-5 p-4 right-3", href="#")
+                            svg(width="12", height="12", viewbox="0 0 12 12", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                path(d="M6.94004 6L11.14 1.80667C11.2656 1.68113 11.3361 1.51087 11.3361 1.33333C11.3361 1.1558 11.2656 0.985537 11.14 0.860002C11.0145 0.734466 10.8442 0.66394 10.6667 0.66394C10.4892 0.66394 10.3189 0.734466 10.1934 0.860002L6.00004 5.06L1.80671 0.860002C1.68117 0.734466 1.51091 0.663941 1.33337 0.663941C1.15584 0.663941 0.985576 0.734466 0.860041 0.860002C0.734505 0.985537 0.66398 1.1558 0.66398 1.33333C0.66398 1.51087 0.734505 1.68113 0.860041 1.80667L5.06004 6L0.860041 10.1933C0.797555 10.2553 0.747959 10.329 0.714113 10.4103C0.680267 10.4915 0.662842 10.5787 0.662842 10.6667C0.662842 10.7547 0.680267 10.8418 0.714113 10.9231C0.747959 11.0043 0.797555 11.078 0.860041 11.14C0.922016 11.2025 0.99575 11.2521 1.07699 11.2859C1.15823 11.3198 1.24537 11.3372 1.33337 11.3372C1.42138 11.3372 1.50852 11.3198 1.58976 11.2859C1.671 11.2521 1.74473 11.2025 1.80671 11.14L6.00004 6.94L10.1934 11.14C10.2554 11.2025 10.3291 11.2521 10.4103 11.2859C10.4916 11.3198 10.5787 11.3372 10.6667 11.3372C10.7547 11.3372 10.8419 11.3198 10.9231 11.2859C11.0043 11.2521 11.0781 11.2025 11.14 11.14C11.2025 11.078 11.2521 11.0043 11.286 10.9231C11.3198 10.8418 11.3372 10.7547 11.3372 10.6667C11.3372 10.5787 11.3198 10.4915 11.286 10.4103C11.2521 10.329 11.2025 10.2553 11.14 10.1933L6.94004 6Z", fill="#556987")
+            section(class="bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto pt-24 pb-8")
+                    div(class="max-w-3xl mb-12")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") WHO ARE WE?
+                        h3(class="mb-4 text-3xl md:text-4xl leading-tight font-medium text-coolGray-900 font-bold tracking-tighter") Branche is...
+                        |       
+                        p(class="text-lg md:text-xl text-coolGray-500 font-medium") created by people who demend changes and can't stand aside watching. Are you?
+                    div(class="flex flex-wrap -mx-4")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="group", href="#")
+                                div(class="bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200")
+                                    div(class="flex flex-wrap items-start justify-between p-10 -mx-4")
+                                        div(class="w-full lg:w-2/3 px-4 mb-6 lg:mb-0")
+                                            h3(class="mb-3 text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold transition duration-200") Designer
+                                            |       
+                                            p(class="text-coolGray-500 font-medium") We think and design how we wanted the world machine to process.
+                                            |       
+                                        div(class="w-full lg:w-1/3 px-4 lg:text-right")
+                                            div(class="inline-flex ml-auto items-center font-medium leading-6 text-green-500 group-hover:text-green-600 transition duration-200")
+                                                span(class="mr-2") Extend
+                                                svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                    path(d="M13.71 10.71C13.801 10.6149 13.8724 10.5028 13.92 10.38C14.02 10.1365 14.02 9.86346 13.92 9.62C13.8724 9.49725 13.801 9.3851 13.71 9.29L10.71 6.29C10.5217 6.1017 10.2663 5.99591 10 5.99591C9.7337 5.99591 9.47831 6.1017 9.29 6.29C9.1017 6.4783 8.99591 6.7337 8.99591 7C8.99591 7.2663 9.1017 7.5217 9.29 7.71L10.59 9L7 9C6.73479 9 6.48043 9.10536 6.2929 9.29289C6.10536 9.48043 6 9.73478 6 10C6 10.2652 6.10536 10.5196 6.2929 10.7071C6.48043 10.8946 6.73479 11 7 11L10.59 11L9.29 12.29C9.19628 12.383 9.12188 12.4936 9.07111 12.6154C9.02034 12.7373 8.99421 12.868 8.99421 13C8.99421 13.132 9.02034 13.2627 9.07111 13.3846C9.12188 13.5064 9.19628 13.617 9.29 13.71C9.38297 13.8037 9.49357 13.8781 9.61543 13.9289C9.73729 13.9797 9.86799 14.0058 10 14.0058C10.132 14.0058 10.2627 13.9797 10.3846 13.9289C10.5064 13.8781 10.617 13.8037 10.71 13.71L13.71 10.71ZM20 10C20 8.02219 19.4135 6.08879 18.3147 4.4443C17.2159 2.79981 15.6541 1.51808 13.8268 0.761204C11.9996 0.00432792 9.98891 -0.193706 8.0491 0.192146C6.10929 0.577999 4.32746 1.53041 2.92894 2.92893C1.53041 4.32746 0.578004 6.10929 0.192152 8.0491C-0.1937 9.98891 0.00433294 11.9996 0.761209 13.8268C1.51809 15.6541 2.79981 17.2159 4.4443 18.3147C6.08879 19.4135 8.02219 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C17.9997 16.1425 18.7363 15.0401 19.2388 13.8268C19.7413 12.6136 20 11.3132 20 10ZM2 10C2 8.41775 2.4692 6.87103 3.34825 5.55544C4.2273 4.23985 5.47673 3.21446 6.93854 2.60896C8.40035 2.00346 10.0089 1.84504 11.5607 2.15372C13.1126 2.4624 14.538 3.22433 15.6569 4.34315C16.7757 5.46197 17.5376 6.88743 17.8463 8.43928C18.155 9.99113 17.9965 11.5997 17.391 13.0615C16.7855 14.5233 15.7602 15.7727 14.4446 16.6518C13.129 17.5308 11.5823 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84286 14.1566 2 12.1217 2 10Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="group", href="#")
+                                div(class="bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200")
+                                    div(class="flex flex-wrap items-start justify-between p-10 -mx-4")
+                                        div(class="w-full lg:w-2/3 px-4 mb-6 lg:mb-0")
+                                            h3(class="mb-3 text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold transition duration-200") Developer
+                                            p(class="text-coolGray-500 font-medium") We act and build to realized change to the world through our work.
+                                        div(class="w-full lg:w-1/3 px-4 lg:text-right")
+                                            div(class="inline-flex ml-auto items-center font-medium leading-6 text-green-500 group-hover:text-green-600 transition duration-200")
+                                                span(class="mr-2") Extend
+                                                svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                    path(d="M13.71 10.71C13.801 10.6149 13.8724 10.5028 13.92 10.38C14.02 10.1365 14.02 9.86346 13.92 9.62C13.8724 9.49725 13.801 9.3851 13.71 9.29L10.71 6.29C10.5217 6.1017 10.2663 5.99591 10 5.99591C9.7337 5.99591 9.47831 6.1017 9.29 6.29C9.1017 6.4783 8.99591 6.7337 8.99591 7C8.99591 7.2663 9.1017 7.5217 9.29 7.71L10.59 9L7 9C6.73479 9 6.48043 9.10536 6.2929 9.29289C6.10536 9.48043 6 9.73478 6 10C6 10.2652 6.10536 10.5196 6.2929 10.7071C6.48043 10.8946 6.73479 11 7 11L10.59 11L9.29 12.29C9.19628 12.383 9.12188 12.4936 9.07111 12.6154C9.02034 12.7373 8.99421 12.868 8.99421 13C8.99421 13.132 9.02034 13.2627 9.07111 13.3846C9.12188 13.5064 9.19628 13.617 9.29 13.71C9.38297 13.8037 9.49357 13.8781 9.61543 13.9289C9.73729 13.9797 9.86799 14.0058 10 14.0058C10.132 14.0058 10.2627 13.9797 10.3846 13.9289C10.5064 13.8781 10.617 13.8037 10.71 13.71L13.71 10.71ZM20 10C20 8.02219 19.4135 6.08879 18.3147 4.4443C17.2159 2.79981 15.6541 1.51808 13.8268 0.761204C11.9996 0.00432792 9.98891 -0.193706 8.0491 0.192146C6.10929 0.577999 4.32746 1.53041 2.92894 2.92893C1.53041 4.32746 0.578004 6.10929 0.192152 8.0491C-0.1937 9.98891 0.00433294 11.9996 0.761209 13.8268C1.51809 15.6541 2.79981 17.2159 4.4443 18.3147C6.08879 19.4135 8.02219 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C17.9997 16.1425 18.7363 15.0401 19.2388 13.8268C19.7413 12.6136 20 11.3132 20 10ZM2 10C2 8.41775 2.4692 6.87103 3.34825 5.55544C4.2273 4.23985 5.47673 3.21446 6.93854 2.60896C8.40035 2.00346 10.0089 1.84504 11.5607 2.15372C13.1126 2.4624 14.538 3.22433 15.6569 4.34315C16.7757 5.46197 17.5376 6.88743 17.8463 8.43928C18.155 9.99113 17.9965 11.5997 17.391 13.0615C16.7855 14.5233 15.7602 15.7727 14.4446 16.6518C13.129 17.5308 11.5823 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84286 14.1566 2 12.1217 2 10Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="group", href="#")
+                                div(class="bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200")
+                                    div(class="flex flex-wrap items-start justify-between p-10 -mx-4")
+                                        div(class="w-full lg:w-2/3 px-4 mb-6 lg:mb-0")
+                                            h3(class="mb-3 text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold transition duration-200") Creative Developer
+                                            |       
+                                            p(class="text-coolGray-500 font-medium") We design symbology to deliever stories to deliever experience to fellows.
+                                        div(class="w-full lg:w-1/3 px-4 lg:text-right")
+                                            div(class="inline-flex ml-auto items-center font-medium leading-6 text-green-500 group-hover:text-green-600 transition duration-200")
+                                                span(class="mr-2") Extend
+                                                svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                    path(d="M13.71 10.71C13.801 10.6149 13.8724 10.5028 13.92 10.38C14.02 10.1365 14.02 9.86346 13.92 9.62C13.8724 9.49725 13.801 9.3851 13.71 9.29L10.71 6.29C10.5217 6.1017 10.2663 5.99591 10 5.99591C9.7337 5.99591 9.47831 6.1017 9.29 6.29C9.1017 6.4783 8.99591 6.7337 8.99591 7C8.99591 7.2663 9.1017 7.5217 9.29 7.71L10.59 9L7 9C6.73479 9 6.48043 9.10536 6.2929 9.29289C6.10536 9.48043 6 9.73478 6 10C6 10.2652 6.10536 10.5196 6.2929 10.7071C6.48043 10.8946 6.73479 11 7 11L10.59 11L9.29 12.29C9.19628 12.383 9.12188 12.4936 9.07111 12.6154C9.02034 12.7373 8.99421 12.868 8.99421 13C8.99421 13.132 9.02034 13.2627 9.07111 13.3846C9.12188 13.5064 9.19628 13.617 9.29 13.71C9.38297 13.8037 9.49357 13.8781 9.61543 13.9289C9.73729 13.9797 9.86799 14.0058 10 14.0058C10.132 14.0058 10.2627 13.9797 10.3846 13.9289C10.5064 13.8781 10.617 13.8037 10.71 13.71L13.71 10.71ZM20 10C20 8.02219 19.4135 6.08879 18.3147 4.4443C17.2159 2.79981 15.6541 1.51808 13.8268 0.761204C11.9996 0.00432792 9.98891 -0.193706 8.0491 0.192146C6.10929 0.577999 4.32746 1.53041 2.92894 2.92893C1.53041 4.32746 0.578004 6.10929 0.192152 8.0491C-0.1937 9.98891 0.00433294 11.9996 0.761209 13.8268C1.51809 15.6541 2.79981 17.2159 4.4443 18.3147C6.08879 19.4135 8.02219 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C17.9997 16.1425 18.7363 15.0401 19.2388 13.8268C19.7413 12.6136 20 11.3132 20 10ZM2 10C2 8.41775 2.4692 6.87103 3.34825 5.55544C4.2273 4.23985 5.47673 3.21446 6.93854 2.60896C8.40035 2.00346 10.0089 1.84504 11.5607 2.15372C13.1126 2.4624 14.538 3.22433 15.6569 4.34315C16.7757 5.46197 17.5376 6.88743 17.8463 8.43928C18.155 9.99113 17.9965 11.5997 17.391 13.0615C16.7855 14.5233 15.7602 15.7727 14.4446 16.6518C13.129 17.5308 11.5823 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84286 14.1566 2 12.1217 2 10Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="group", href="#")
+                                div(class="bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200")
+                                    div(class="flex flex-wrap items-start justify-between p-10 -mx-4")
+                                        div(class="w-full lg:w-2/3 px-4 mb-6 lg:mb-0")
+                                            h3(class="mb-3 text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold transition duration-200") Researcher / Writer
+                                            |       
+                                            p(class="text-coolGray-500 font-medium") We investigate essence of issue and provide information to fellows.
+                                            |       
+                                        div(class="w-full lg:w-1/3 px-4 lg:text-right")
+                                            div(class="inline-flex ml-auto items-center font-medium leading-6 text-green-500 group-hover:text-green-600 transition duration-200")
+                                                span(class="mr-2") Extend
+                                                svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                    path(d="M13.71 10.71C13.801 10.6149 13.8724 10.5028 13.92 10.38C14.02 10.1365 14.02 9.86346 13.92 9.62C13.8724 9.49725 13.801 9.3851 13.71 9.29L10.71 6.29C10.5217 6.1017 10.2663 5.99591 10 5.99591C9.7337 5.99591 9.47831 6.1017 9.29 6.29C9.1017 6.4783 8.99591 6.7337 8.99591 7C8.99591 7.2663 9.1017 7.5217 9.29 7.71L10.59 9L7 9C6.73479 9 6.48043 9.10536 6.2929 9.29289C6.10536 9.48043 6 9.73478 6 10C6 10.2652 6.10536 10.5196 6.2929 10.7071C6.48043 10.8946 6.73479 11 7 11L10.59 11L9.29 12.29C9.19628 12.383 9.12188 12.4936 9.07111 12.6154C9.02034 12.7373 8.99421 12.868 8.99421 13C8.99421 13.132 9.02034 13.2627 9.07111 13.3846C9.12188 13.5064 9.19628 13.617 9.29 13.71C9.38297 13.8037 9.49357 13.8781 9.61543 13.9289C9.73729 13.9797 9.86799 14.0058 10 14.0058C10.132 14.0058 10.2627 13.9797 10.3846 13.9289C10.5064 13.8781 10.617 13.8037 10.71 13.71L13.71 10.71ZM20 10C20 8.02219 19.4135 6.08879 18.3147 4.4443C17.2159 2.79981 15.6541 1.51808 13.8268 0.761204C11.9996 0.00432792 9.98891 -0.193706 8.0491 0.192146C6.10929 0.577999 4.32746 1.53041 2.92894 2.92893C1.53041 4.32746 0.578004 6.10929 0.192152 8.0491C-0.1937 9.98891 0.00433294 11.9996 0.761209 13.8268C1.51809 15.6541 2.79981 17.2159 4.4443 18.3147C6.08879 19.4135 8.02219 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C17.9997 16.1425 18.7363 15.0401 19.2388 13.8268C19.7413 12.6136 20 11.3132 20 10ZM2 10C2 8.41775 2.4692 6.87103 3.34825 5.55544C4.2273 4.23985 5.47673 3.21446 6.93854 2.60896C8.40035 2.00346 10.0089 1.84504 11.5607 2.15372C13.1126 2.4624 14.538 3.22433 15.6569 4.34315C16.7757 5.46197 17.5376 6.88743 17.8463 8.43928C18.155 9.99113 17.9965 11.5997 17.391 13.0615C16.7855 14.5233 15.7602 15.7727 14.4446 16.6518C13.129 17.5308 11.5823 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84286 14.1566 2 12.1217 2 10Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8 md:mb-0")
+                            a(class="group", href="#")
+                                div(class="bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200")
+                                    div(class="flex flex-wrap items-start justify-between p-10 -mx-4")
+                                        div(class="w-full lg:w-2/3 px-4 mb-6 lg:mb-0")
+                                            h3(class="mb-3 text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold transition duration-200") Proposer & Governancer
+                                            p(class="text-coolGray-500 font-medium") We desgin & governance how branche should function as a DAO.
+                                            |       
+                                        div(class="w-full lg:w-1/3 px-4 lg:text-right")
+                                            div(class="inline-flex ml-auto items-center font-medium leading-6 text-green-500 group-hover:text-green-600 transition duration-200")
+                                                span(class="mr-2") Extend
+                                                svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                    path(d="M13.71 10.71C13.801 10.6149 13.8724 10.5028 13.92 10.38C14.02 10.1365 14.02 9.86346 13.92 9.62C13.8724 9.49725 13.801 9.3851 13.71 9.29L10.71 6.29C10.5217 6.1017 10.2663 5.99591 10 5.99591C9.7337 5.99591 9.47831 6.1017 9.29 6.29C9.1017 6.4783 8.99591 6.7337 8.99591 7C8.99591 7.2663 9.1017 7.5217 9.29 7.71L10.59 9L7 9C6.73479 9 6.48043 9.10536 6.2929 9.29289C6.10536 9.48043 6 9.73478 6 10C6 10.2652 6.10536 10.5196 6.2929 10.7071C6.48043 10.8946 6.73479 11 7 11L10.59 11L9.29 12.29C9.19628 12.383 9.12188 12.4936 9.07111 12.6154C9.02034 12.7373 8.99421 12.868 8.99421 13C8.99421 13.132 9.02034 13.2627 9.07111 13.3846C9.12188 13.5064 9.19628 13.617 9.29 13.71C9.38297 13.8037 9.49357 13.8781 9.61543 13.9289C9.73729 13.9797 9.86799 14.0058 10 14.0058C10.132 14.0058 10.2627 13.9797 10.3846 13.9289C10.5064 13.8781 10.617 13.8037 10.71 13.71L13.71 10.71ZM20 10C20 8.02219 19.4135 6.08879 18.3147 4.4443C17.2159 2.79981 15.6541 1.51808 13.8268 0.761204C11.9996 0.00432792 9.98891 -0.193706 8.0491 0.192146C6.10929 0.577999 4.32746 1.53041 2.92894 2.92893C1.53041 4.32746 0.578004 6.10929 0.192152 8.0491C-0.1937 9.98891 0.00433294 11.9996 0.761209 13.8268C1.51809 15.6541 2.79981 17.2159 4.4443 18.3147C6.08879 19.4135 8.02219 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C17.9997 16.1425 18.7363 15.0401 19.2388 13.8268C19.7413 12.6136 20 11.3132 20 10ZM2 10C2 8.41775 2.4692 6.87103 3.34825 5.55544C4.2273 4.23985 5.47673 3.21446 6.93854 2.60896C8.40035 2.00346 10.0089 1.84504 11.5607 2.15372C13.1126 2.4624 14.538 3.22433 15.6569 4.34315C16.7757 5.46197 17.5376 6.88743 17.8463 8.43928C18.155 9.99113 17.9965 11.5997 17.391 13.0615C16.7855 14.5233 15.7602 15.7727 14.4446 16.6518C13.129 17.5308 11.5823 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84286 14.1566 2 12.1217 2 10Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4")
+                            a(class="group", href="#")
+                                div(class="bg-coolGray-50 group-hover:bg-coolGray-100 rounded-md shadow-md transition duration-200")
+                                    div(class="flex flex-wrap items-start justify-between p-10 -mx-4")
+                                        div(class="w-full lg:w-2/3 px-4 mb-6 lg:mb-0")
+                                            h3(class="mb-3 text-lg md:text-xl text-coolGray-800 group-hover:text-coolGray-900 font-semibold transition duration-200") Evangelist
+                                            p(class="text-coolGray-500 font-medium") We deliever stories and attract fellows into the branchsim movement.
+                                            |       
+                                        div(class="w-full lg:w-1/3 px-4 lg:text-right")
+                                            div(class="inline-flex ml-auto items-center font-medium leading-6 text-green-500 group-hover:text-green-600 transition duration-200")
+                                                span(class="mr-2") Extend
+                                                svg(width="20", height="20", viewbox="0 0 20 20", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                                    path(d="M13.71 10.71C13.801 10.6149 13.8724 10.5028 13.92 10.38C14.02 10.1365 14.02 9.86346 13.92 9.62C13.8724 9.49725 13.801 9.3851 13.71 9.29L10.71 6.29C10.5217 6.1017 10.2663 5.99591 10 5.99591C9.7337 5.99591 9.47831 6.1017 9.29 6.29C9.1017 6.4783 8.99591 6.7337 8.99591 7C8.99591 7.2663 9.1017 7.5217 9.29 7.71L10.59 9L7 9C6.73479 9 6.48043 9.10536 6.2929 9.29289C6.10536 9.48043 6 9.73478 6 10C6 10.2652 6.10536 10.5196 6.2929 10.7071C6.48043 10.8946 6.73479 11 7 11L10.59 11L9.29 12.29C9.19628 12.383 9.12188 12.4936 9.07111 12.6154C9.02034 12.7373 8.99421 12.868 8.99421 13C8.99421 13.132 9.02034 13.2627 9.07111 13.3846C9.12188 13.5064 9.19628 13.617 9.29 13.71C9.38297 13.8037 9.49357 13.8781 9.61543 13.9289C9.73729 13.9797 9.86799 14.0058 10 14.0058C10.132 14.0058 10.2627 13.9797 10.3846 13.9289C10.5064 13.8781 10.617 13.8037 10.71 13.71L13.71 10.71ZM20 10C20 8.02219 19.4135 6.08879 18.3147 4.4443C17.2159 2.79981 15.6541 1.51808 13.8268 0.761204C11.9996 0.00432792 9.98891 -0.193706 8.0491 0.192146C6.10929 0.577999 4.32746 1.53041 2.92894 2.92893C1.53041 4.32746 0.578004 6.10929 0.192152 8.0491C-0.1937 9.98891 0.00433294 11.9996 0.761209 13.8268C1.51809 15.6541 2.79981 17.2159 4.4443 18.3147C6.08879 19.4135 8.02219 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C17.9997 16.1425 18.7363 15.0401 19.2388 13.8268C19.7413 12.6136 20 11.3132 20 10ZM2 10C2 8.41775 2.4692 6.87103 3.34825 5.55544C4.2273 4.23985 5.47673 3.21446 6.93854 2.60896C8.40035 2.00346 10.0089 1.84504 11.5607 2.15372C13.1126 2.4624 14.538 3.22433 15.6569 4.34315C16.7757 5.46197 17.5376 6.88743 17.8463 8.43928C18.155 9.99113 17.9965 11.5997 17.391 13.0615C16.7855 14.5233 15.7602 15.7727 14.4446 16.6518C13.129 17.5308 11.5823 18 10 18C7.87827 18 5.84344 17.1571 4.34315 15.6569C2.84286 14.1566 2 12.1217 2 10Z", fill="currentColor")
+            section(class="relative bg-white overflow-hidden py-8", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="relative container px-4 mx-auto")
+                    div(class="xl:max-w-4xl mb-18 md:mb-16 mx-auto text-center")
+                        h1(class="mb-4 leading-tight font-heading font-bold text-4xl md:text-5xl") Interested?
+                        p(class="mb-6 text-lg md:text-xl text-coolGray-500 font-heading") We are hiring!
+                        |       
+                        a(class="inline-flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto text-lg leading-7 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm", href="#") Contact us
+                    div(class="relative max-w-4xl mx-auto")             
+                    |             
+                    |             
+                    |           
+            section(class="relative py-24 bg-white")
+                div(class="absolute top-0 left-0 w-full h-full", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-repeat: no-repeat; background-position: left top;")
+                div(class="container relative z-10 px-4 mx-auto")
+                    div(class="md:max-w-5xl mx-auto mb-8 md:mb-16 text-center")
+                        span(class="inline-block py-px px-2 mb-4 text-xs leading-5 text-green-500 bg-green-100 font-medium uppercase rounded-full shadow-sm") BLOG
+                        h3(class="mb-4 text-3xl md:text-5xl leading-tight text-darkCoolGray-900 font-bold tracking-tighter") Our mission is to help everyone retake their data & stake.
+                        p(class="mb-10 text-lg md:text-xl text-coolGray-500 font-medium") We writes blogs to share idea with audiences who shares similar values.
+                        |       (Work in process)
+                        |       
+                        div(class="relative mx-auto md:w-80")               
+                        |               
+                        |             
+                    ul(class="flex flex-wrap mb-8 -mx-2 text-center")
+                        li(class="w-full md:w-auto px-2")
+                            a(class="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm", href="#") All Categories
+                        li(class="w-full md:w-auto px-2")
+                            a(class="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm", href="#") Updates
+                        li(class="w-full md:w-auto px-2")
+                            a(class="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm", href="#") Insights
+                        li(class="w-full md:w-auto px-2")
+                            a(class="inline-block w-full py-2 px-4 mb-4 md:mb-0 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm", href="#") Tech
+                        li(class="w-full md:w-auto px-2")
+                            a(class="inline-block w-full py-2 px-4 text-sm text-coolGray-400 hover:text-green-500 hover:bg-green-200 font-bold rounded-md hover:shadow-sm", href="#") Community
+                    div(class="flex flex-wrap -mx-4 mb-12 md:mb-20")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="block mb-6 overflow-hidden rounded-md", href="#")
+                                img(class="w-full", src="https://images.unsplash.com/photo-1559311648-d46f5d8593d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxwbGFjZWhvbGRlcnxlbnwwfHx8fDE2ODU1NjM1Njl8MA&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+                            div(class="mb-4")
+                                a(class="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm", href="#") Technology
+                            p(class="mb-2 text-coolGray-500 font-medium") John Doe • 19 Jan 2022
+                            a(class="inline-block mb-4 text-2xl md:text-3xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline", href="#") A small business is only as good as its tools and it is totally true.
+                            |               
+                            a(class="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold", href="#")
+                                span(class="mr-3") Read Post
+                                svg(width="8", height="10", viewbox="0 0 8 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M7.94667 4.74665C7.91494 4.66481 7.86736 4.59005 7.80666 4.52665L4.47333 1.19331C4.41117 1.13116 4.33738 1.08185 4.25617 1.04821C4.17495 1.01457 4.08791 0.997253 4 0.997253C3.82246 0.997253 3.6522 1.06778 3.52667 1.19331C3.46451 1.25547 3.4152 1.32927 3.38156 1.41048C3.34792 1.4917 3.33061 1.57874 3.33061 1.66665C3.33061 1.84418 3.40113 2.01445 3.52667 2.13998L5.72667 4.33331H0.666667C0.489856 4.33331 0.320286 4.40355 0.195262 4.52858C0.070238 4.6536 0 4.82317 0 4.99998C0 5.17679 0.070238 5.34636 0.195262 5.47138C0.320286 5.59641 0.489856 5.66665 0.666667 5.66665H5.72667L3.52667 7.85998C3.46418 7.92196 3.41458 7.99569 3.38074 8.07693C3.34689 8.15817 3.32947 8.24531 3.32947 8.33331C3.32947 8.42132 3.34689 8.50846 3.38074 8.5897C3.41458 8.67094 3.46418 8.74467 3.52667 8.80665C3.58864 8.86913 3.66238 8.91873 3.74361 8.95257C3.82485 8.98642 3.91199 9.00385 4 9.00385C4.08801 9.00385 4.17514 8.98642 4.25638 8.95257C4.33762 8.91873 4.41136 8.86913 4.47333 8.80665L7.80666 5.47331C7.86736 5.40991 7.91494 5.33515 7.94667 5.25331C8.01334 5.09101 8.01334 4.90895 7.94667 4.74665Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="block mb-6 overflow-hidden rounded-md", href="#")
+                                img(class="w-full", src="https://images.unsplash.com/photo-1559311648-d46f5d8593d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxwbGFjZWhvbGRlcnxlbnwwfHx8fDE2ODU1NjM1Njl8MA&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+                            div(class="mb-4")
+                                a(class="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm", href="#") Development
+                            p(class="mb-2 text-coolGray-500 font-medium") John Doe • 19 Jan 2022
+                            a(class="inline-block mb-4 text-2xl md:text-3xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline", href="#") A small business is only as good as its tools and it is totally true.
+                            |               
+                            a(class="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold", href="#")
+                                span(class="mr-3") Read Post
+                                svg(width="8", height="10", viewbox="0 0 8 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M7.94667 4.74665C7.91494 4.66481 7.86736 4.59005 7.80666 4.52665L4.47333 1.19331C4.41117 1.13116 4.33738 1.08185 4.25617 1.04821C4.17495 1.01457 4.08791 0.997253 4 0.997253C3.82246 0.997253 3.6522 1.06778 3.52667 1.19331C3.46451 1.25547 3.4152 1.32927 3.38156 1.41048C3.34792 1.4917 3.33061 1.57874 3.33061 1.66665C3.33061 1.84418 3.40113 2.01445 3.52667 2.13998L5.72667 4.33331H0.666667C0.489856 4.33331 0.320286 4.40355 0.195262 4.52858C0.070238 4.6536 0 4.82317 0 4.99998C0 5.17679 0.070238 5.34636 0.195262 5.47138C0.320286 5.59641 0.489856 5.66665 0.666667 5.66665H5.72667L3.52667 7.85998C3.46418 7.92196 3.41458 7.99569 3.38074 8.07693C3.34689 8.15817 3.32947 8.24531 3.32947 8.33331C3.32947 8.42132 3.34689 8.50846 3.38074 8.5897C3.41458 8.67094 3.46418 8.74467 3.52667 8.80665C3.58864 8.86913 3.66238 8.91873 3.74361 8.95257C3.82485 8.98642 3.91199 9.00385 4 9.00385C4.08801 9.00385 4.17514 8.98642 4.25638 8.95257C4.33762 8.91873 4.41136 8.86913 4.47333 8.80665L7.80666 5.47331C7.86736 5.40991 7.91494 5.33515 7.94667 5.25331C8.01334 5.09101 8.01334 4.90895 7.94667 4.74665Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="block mb-6 overflow-hidden rounded-md", href="#")
+                                img(class="w-full", src="https://images.unsplash.com/photo-1559311648-d46f5d8593d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxwbGFjZWhvbGRlcnxlbnwwfHx8fDE2ODU1NjM1Njl8MA&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+                            div(class="mb-4")
+                                a(class="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm", href="#") Marketing
+                            p(class="mb-2 text-coolGray-500 font-medium") John Doe • 19 Jan 2022
+                            a(class="inline-block mb-4 text-2xl md:text-3xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline", href="#") A small business is only as good as its tools and it is totally true.
+                            |               
+                            a(class="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold", href="#")
+                                span(class="mr-3") Read Post
+                                svg(width="8", height="10", viewbox="0 0 8 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M7.94667 4.74665C7.91494 4.66481 7.86736 4.59005 7.80666 4.52665L4.47333 1.19331C4.41117 1.13116 4.33738 1.08185 4.25617 1.04821C4.17495 1.01457 4.08791 0.997253 4 0.997253C3.82246 0.997253 3.6522 1.06778 3.52667 1.19331C3.46451 1.25547 3.4152 1.32927 3.38156 1.41048C3.34792 1.4917 3.33061 1.57874 3.33061 1.66665C3.33061 1.84418 3.40113 2.01445 3.52667 2.13998L5.72667 4.33331H0.666667C0.489856 4.33331 0.320286 4.40355 0.195262 4.52858C0.070238 4.6536 0 4.82317 0 4.99998C0 5.17679 0.070238 5.34636 0.195262 5.47138C0.320286 5.59641 0.489856 5.66665 0.666667 5.66665H5.72667L3.52667 7.85998C3.46418 7.92196 3.41458 7.99569 3.38074 8.07693C3.34689 8.15817 3.32947 8.24531 3.32947 8.33331C3.32947 8.42132 3.34689 8.50846 3.38074 8.5897C3.41458 8.67094 3.46418 8.74467 3.52667 8.80665C3.58864 8.86913 3.66238 8.91873 3.74361 8.95257C3.82485 8.98642 3.91199 9.00385 4 9.00385C4.08801 9.00385 4.17514 8.98642 4.25638 8.95257C4.33762 8.91873 4.41136 8.86913 4.47333 8.80665L7.80666 5.47331C7.86736 5.40991 7.91494 5.33515 7.94667 5.25331C8.01334 5.09101 8.01334 4.90895 7.94667 4.74665Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8")
+                            a(class="block mb-6 overflow-hidden rounded-md", href="#")
+                                img(class="w-full", src="https://images.unsplash.com/photo-1559311648-d46f5d8593d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxwbGFjZWhvbGRlcnxlbnwwfHx8fDE2ODU1NjM1Njl8MA&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+                            div(class="mb-4")
+                                a(class="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm", href="#") Start-up
+                            p(class="mb-2 text-coolGray-500 font-medium") John Doe • 19 Jan 2022
+                            a(class="inline-block mb-4 text-2xl md:text-3xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline", href="#") A small business is only as good as its tools and it is totally true.
+                            |               
+                            a(class="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold", href="#")
+                                span(class="mr-3") Read Post
+                                svg(width="8", height="10", viewbox="0 0 8 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M7.94667 4.74665C7.91494 4.66481 7.86736 4.59005 7.80666 4.52665L4.47333 1.19331C4.41117 1.13116 4.33738 1.08185 4.25617 1.04821C4.17495 1.01457 4.08791 0.997253 4 0.997253C3.82246 0.997253 3.6522 1.06778 3.52667 1.19331C3.46451 1.25547 3.4152 1.32927 3.38156 1.41048C3.34792 1.4917 3.33061 1.57874 3.33061 1.66665C3.33061 1.84418 3.40113 2.01445 3.52667 2.13998L5.72667 4.33331H0.666667C0.489856 4.33331 0.320286 4.40355 0.195262 4.52858C0.070238 4.6536 0 4.82317 0 4.99998C0 5.17679 0.070238 5.34636 0.195262 5.47138C0.320286 5.59641 0.489856 5.66665 0.666667 5.66665H5.72667L3.52667 7.85998C3.46418 7.92196 3.41458 7.99569 3.38074 8.07693C3.34689 8.15817 3.32947 8.24531 3.32947 8.33331C3.32947 8.42132 3.34689 8.50846 3.38074 8.5897C3.41458 8.67094 3.46418 8.74467 3.52667 8.80665C3.58864 8.86913 3.66238 8.91873 3.74361 8.95257C3.82485 8.98642 3.91199 9.00385 4 9.00385C4.08801 9.00385 4.17514 8.98642 4.25638 8.95257C4.33762 8.91873 4.41136 8.86913 4.47333 8.80665L7.80666 5.47331C7.86736 5.40991 7.91494 5.33515 7.94667 5.25331C8.01334 5.09101 8.01334 4.90895 7.94667 4.74665Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4 mb-8 md:mb-0")
+                            a(class="block mb-6 overflow-hidden rounded-md", href="#")
+                                img(class="w-full", src="https://images.unsplash.com/photo-1559311648-d46f5d8593d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxwbGFjZWhvbGRlcnxlbnwwfHx8fDE2ODU1NjM1Njl8MA&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+                            div(class="mb-4")
+                                a(class="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm", href="#") Article
+                            p(class="mb-2 text-coolGray-500 font-medium") John Doe • 19 Jan 2022
+                            a(class="inline-block mb-4 text-2xl md:text-3xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline", href="#") A small business is only as good as its tools and it is totally true.
+                            |               
+                            a(class="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold", href="#")
+                                span(class="mr-3") Read Post
+                                svg(width="8", height="10", viewbox="0 0 8 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M7.94667 4.74665C7.91494 4.66481 7.86736 4.59005 7.80666 4.52665L4.47333 1.19331C4.41117 1.13116 4.33738 1.08185 4.25617 1.04821C4.17495 1.01457 4.08791 0.997253 4 0.997253C3.82246 0.997253 3.6522 1.06778 3.52667 1.19331C3.46451 1.25547 3.4152 1.32927 3.38156 1.41048C3.34792 1.4917 3.33061 1.57874 3.33061 1.66665C3.33061 1.84418 3.40113 2.01445 3.52667 2.13998L5.72667 4.33331H0.666667C0.489856 4.33331 0.320286 4.40355 0.195262 4.52858C0.070238 4.6536 0 4.82317 0 4.99998C0 5.17679 0.070238 5.34636 0.195262 5.47138C0.320286 5.59641 0.489856 5.66665 0.666667 5.66665H5.72667L3.52667 7.85998C3.46418 7.92196 3.41458 7.99569 3.38074 8.07693C3.34689 8.15817 3.32947 8.24531 3.32947 8.33331C3.32947 8.42132 3.34689 8.50846 3.38074 8.5897C3.41458 8.67094 3.46418 8.74467 3.52667 8.80665C3.58864 8.86913 3.66238 8.91873 3.74361 8.95257C3.82485 8.98642 3.91199 9.00385 4 9.00385C4.08801 9.00385 4.17514 8.98642 4.25638 8.95257C4.33762 8.91873 4.41136 8.86913 4.47333 8.80665L7.80666 5.47331C7.86736 5.40991 7.91494 5.33515 7.94667 5.25331C8.01334 5.09101 8.01334 4.90895 7.94667 4.74665Z", fill="currentColor")
+                        div(class="w-full md:w-1/2 px-4")
+                            a(class="block mb-6 overflow-hidden rounded-md", href="#")
+                                img(class="w-full", src="https://images.unsplash.com/photo-1559311648-d46f5d8593d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzIzMzB8MHwxfHNlYXJjaHw0fHxwbGFjZWhvbGRlcnxlbnwwfHx8fDE2ODU1NjM1Njl8MA&ixlib=rb-4.0.3&q=85&w=1920", alt="")
+                            div(class="mb-4")
+                                a(class="inline-block py-1 px-3 text-xs leading-5 text-green-500 hover:text-green-600 font-medium uppercase bg-green-100 hover:bg-green-200 rounded-full shadow-sm", href="#") Podcast
+                            p(class="mb-2 text-coolGray-500 font-medium") John Doe • 19 Jan 2022
+                            a(class="inline-block mb-4 text-2xl md:text-3xl leading-tight text-coolGray-800 hover:text-coolGray-900 font-bold hover:underline", href="#") A small business is only as good as its tools and it is totally true.
+                            |               
+                            a(class="inline-flex items-center text-base md:text-lg text-green-500 hover:text-green-600 font-semibold", href="#")
+                                span(class="mr-3") Read Post
+                                svg(width="8", height="10", viewbox="0 0 8 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                                    path(d="M7.94667 4.74665C7.91494 4.66481 7.86736 4.59005 7.80666 4.52665L4.47333 1.19331C4.41117 1.13116 4.33738 1.08185 4.25617 1.04821C4.17495 1.01457 4.08791 0.997253 4 0.997253C3.82246 0.997253 3.6522 1.06778 3.52667 1.19331C3.46451 1.25547 3.4152 1.32927 3.38156 1.41048C3.34792 1.4917 3.33061 1.57874 3.33061 1.66665C3.33061 1.84418 3.40113 2.01445 3.52667 2.13998L5.72667 4.33331H0.666667C0.489856 4.33331 0.320286 4.40355 0.195262 4.52858C0.070238 4.6536 0 4.82317 0 4.99998C0 5.17679 0.070238 5.34636 0.195262 5.47138C0.320286 5.59641 0.489856 5.66665 0.666667 5.66665H5.72667L3.52667 7.85998C3.46418 7.92196 3.41458 7.99569 3.38074 8.07693C3.34689 8.15817 3.32947 8.24531 3.32947 8.33331C3.32947 8.42132 3.34689 8.50846 3.38074 8.5897C3.41458 8.67094 3.46418 8.74467 3.52667 8.80665C3.58864 8.86913 3.66238 8.91873 3.74361 8.95257C3.82485 8.98642 3.91199 9.00385 4 9.00385C4.08801 9.00385 4.17514 8.98642 4.25638 8.95257C4.33762 8.91873 4.41136 8.86913 4.47333 8.80665L7.80666 5.47331C7.86736 5.40991 7.91494 5.33515 7.94667 5.25331C8.01334 5.09101 8.01334 4.90895 7.94667 4.74665Z", fill="currentColor")
+                    a(class="flex items-center justify-center py-2 px-4 mx-auto text-sm leading-5 text-green-50 font-medium bg-green-500 hover:bg-green-600 focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 md:max-w-max rounded-md", href="#")
+                        span(class="mr-3") View more
+                        svg(class="text-green-50", width="12", height="10", viewbox="0 0 12 10", fill="none", xmlns="http://www.w3.org/2000/svg")
+                            path(d="M10.7583 4.40833C10.6809 4.33023 10.5887 4.26823 10.4871 4.22592C10.3856 4.18362 10.2767 4.16183 10.1667 4.16183C10.0567 4.16183 9.94773 4.18362 9.84619 4.22592C9.74464 4.26823 9.65247 4.33023 9.575 4.40833L6.83333 7.15833V0.833333C6.83333 0.61232 6.74554 0.400358 6.58926 0.244078C6.43297 0.0877975 6.22101 0 6 0C5.77899 0 5.56702 0.0877975 5.41074 0.244078C5.25446 0.400358 5.16667 0.61232 5.16667 0.833333V7.15833L2.425 4.40833C2.26808 4.25141 2.05525 4.16326 1.83333 4.16326C1.61141 4.16326 1.39859 4.25141 1.24167 4.40833C1.08475 4.56525 0.99659 4.77808 0.99659 5C0.99659 5.22192 1.08475 5.43475 1.24167 5.59167L5.40833 9.75833C5.48759 9.8342 5.58104 9.89367 5.68333 9.93333C5.78308 9.97742 5.89094 10.0002 6 10.0002C6.10906 10.0002 6.21692 9.97742 6.31667 9.93333C6.41896 9.89367 6.51241 9.8342 6.59167 9.75833L10.7583 5.59167C10.8364 5.5142 10.8984 5.42203 10.9407 5.32048C10.9831 5.21893 11.0048 5.11001 11.0048 5C11.0048 4.88999 10.9831 4.78107 10.9407 4.67952C10.8984 4.57797 10.8364 4.4858 10.7583 4.40833Z", fill="currentColor")
+            section(class="relative py-24 bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                img(class="absolute top-6 left-6 w-24 md:w-auto", src="flex-ui-assets/elements/dots3-violet.svg")
+                img(class="absolute bottom-6 right-6 w-24 md:w-auto", src="flex-ui-assets/elements/dots3-blue.svg")
+                div(class="container relative z-10 px-4 mx-auto")
+                    div(class="mx-auto max-w-xl text-center")
+                        h3(class="mb-4 text-3xl md:text-4xl leading-tight text-coolGray-900 font-bold tracking-tighter") Sign up for our newsletter
+                        p(class="mb-8 text-lg md:text-xl text-coolGray-500 font-medium") Stay noticed with branche.
+                        div(class="mx-auto md:max-w-md text-left")
+                            div(class="flex flex-wrap mb-1")
+                                div(class="w-full md:flex-1 mb-3 md:mb-0 md:mr-6")
+                                    input(class="w-full py-3 px-4 text-coolGray-500 leading-tight placeholder-coolGray-500 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-coolGray-200 rounded-lg shadow-xsm", type="text", placeholder="Enter your email")
+                                div(class="w-full md:w-auto")
+                                    a(class="inline-block py-3 px-5 w-full leading-5 text-white bg-green-500 hover:bg-green-600 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm", href="#") Subscribe
+                            span(class="text-xs text-coolGray-500 font-medium")                 
+                            |                 
+                            |               
+            section(class="bg-white", style="background-image: url('flex-ui-assets/elements/pattern-white.svg'); background-position: center;")
+                div(class="container px-4 mx-auto")
+                    div(class="pb-11 mx-auto max-w-4xl pt-12")
+                        a(class="block md:mx-auto mb-5 max-w-max", href="#")
+                            svg(xmlns="http://www.w3.org/2000/svg", width="1064", height="176", viewbox="0 0 1064 176", fill="none", class="text-green-500 max-w-xs")
+                                path(fill-rule="evenodd", clip-rule="evenodd", d="M118.925 30.3465L112.177 68.6164L83.4097 68.739H14.1025L20.8721 30.3465L27.5475 30.3465C36.8119 29.2478 43.6329 26.3959 48.2528 22.3527C52.6872 18.4719 56.859 11.9514 58.1554 0.15427L94.3675 0C93.5725 11.3832 90.9912 21.5524 86.6491 30.3465L118.925 30.3465ZM25.6213 174.79H64.4816L69.5976 146.481L81.6327 78.2271L42.6479 78.2271L41.4887 84.8011C38.798 93.734 34.8049 99.9561 30.0209 103.804C25.429 107.497 18.2832 110.473 6.4401 109.701L0 145.336C11.3484 146.53 21.8113 145.754 31.2259 143.005L25.6213 174.79ZM81.3754 144.723L88.1235 106.453L116.89 106.331H186.198L179.428 144.723L172.753 144.723C163.488 145.822 156.667 148.674 152.047 152.717C147.613 156.598 143.441 163.118 142.145 174.916L105.933 175.07C106.728 163.687 109.309 153.517 113.651 144.723L81.3754 144.723ZM174.379 0.279844H135.518L130.402 28.5884L118.367 96.8426H157.352L158.511 90.2686C161.202 81.3358 165.195 75.1136 169.979 71.266C174.571 67.5729 181.717 64.5967 193.56 65.3686L200 29.7335C188.652 28.5397 178.189 29.3159 168.774 32.065L174.379 0.279844ZM317.868 1L308.68 53.9262C308.959 53.7492 309.24 53.5726 309.525 53.3964C320.845 46.3776 334.433 42.9242 347.689 45.327C361.273 47.7892 373.361 56.2151 381.305 70.7007C390.132 86.7965 387.225 108.442 378.642 125.238C369.868 142.406 353.338 158.149 330.571 159.845C318.773 160.723 304.333 157.976 293.145 148.878C292.865 148.651 292.589 148.42 292.315 148.187L290.873 156.496H268L278.479 96.1386L278.395 96.1129C278.462 95.891 278.53 95.6681 278.599 95.4444L294.996 1H317.868ZM299.546 106.539L300.554 100.733C302.362 94.9581 304.02 90.4791 306.65 86.319C309.444 81.9004 313.687 77.3314 321.399 72.5495C328.859 67.9248 336.843 66.2639 343.67 67.5013C350.168 68.6792 356.671 72.6478 361.546 81.5366C365.489 88.7276 365.203 102.013 358.575 114.983C352.137 127.58 341.436 136.438 328.898 137.372C321.299 137.937 313.015 135.99 307.362 131.393C302.398 127.356 298.05 120.161 299.546 106.539ZM863.07 51.9519L871.855 1H848.987L822.178 156.496H845.046L854.039 104.336C856.227 95.0488 859.017 88.1481 862.555 82.8249C866.315 77.1658 871.242 72.8027 878.256 69.2954C886.607 65.1201 900.216 59.9618 912.833 70.777C916.871 74.2378 918.837 81.0337 918.62 90.4886C918.461 97.4265 917.303 103.138 916.473 107.233L916.472 107.234L916.472 107.235L916.472 107.237C916.189 108.629 915.945 109.835 915.79 110.838C915.464 112.957 912.915 125.908 910.337 138.848C909.07 145.202 907.827 151.406 906.901 156.021L906.805 156.496H929.79C930.582 152.547 931.503 147.941 932.438 143.252C934.93 130.745 937.639 117.028 938.064 114.264L938.069 114.235C938.074 114.207 938.083 114.156 938.097 114.08L938.11 114.009L938.123 113.941L938.141 113.849L938.163 113.738L938.201 113.543C938.262 113.243 938.327 112.924 938.404 112.549L938.408 112.527L938.556 111.802C938.841 110.401 939.204 108.581 939.564 106.479C940.282 102.299 941.015 96.8701 941.15 91.005C941.403 79.9766 939.612 64.0491 927.499 53.6667C903.309 32.9321 877.105 44.6755 868.178 49.1389C866.41 50.0231 864.708 50.9599 863.07 51.9519ZM1053.35 57.4168C1062.8 69.0308 1065.42 84.8113 1061.9 100.906L1060.09 109.171L972.874 109.171C972.813 116.524 974.539 122.769 977.578 127.341C981.453 133.171 988.389 137.716 1000.54 137.716C1013.32 137.716 1021.68 133.756 1027.24 128.819C1030.27 126.134 1032.65 122.99 1034.47 119.688H1057.32C1054.52 128.137 1049.47 137.21 1041.21 144.548C1031.54 153.132 1018.12 158.75 1000.54 158.75C982.343 158.75 968.356 151.464 960.061 138.983C952.063 126.95 950.347 111.587 953.01 96.7916C954.842 86.6136 959.959 73.6926 969.097 62.8232C978.394 51.7646 992.113 42.584 1010.66 41.2172C1028.59 39.8965 1043.77 45.6533 1053.35 57.4168ZM977.752 88.138C979.621 84.1297 982.09 80.054 985.197 76.3583C991.56 68.7892 1000.34 63.0684 1012.21 62.1936C1024.71 61.2726 1032.63 65.2813 1037.04 70.6983C1040.4 74.8259 1042.51 80.7397 1042.37 88.138H977.752ZM715.106 78.6907C722.544 63.4433 739.669 41.1887 771.807 41.1887C787.057 41.1887 800.123 45.8904 809.036 55.742C816.601 64.1032 820.068 74.953 820.357 86.6355H797.815C797.544 79.3587 795.374 74.2312 792.325 70.8616C788.75 66.9101 782.473 63.7243 771.807 63.7243C752.113 63.7243 741.056 76.8948 735.36 88.5708C732.723 93.9775 730.88 104.149 732.54 113.957C734.157 123.509 738.606 130.531 746.347 133.65C761.429 139.728 780.781 132.092 790.591 115.181H815.27C803.732 146.965 769.525 167.288 737.924 154.552C720.5 147.531 712.741 132.017 710.321 117.719C707.943 103.676 710.232 88.6833 715.106 78.6907ZM686.406 156.496H663.421L663.516 156.021C664.443 151.406 665.686 145.203 666.952 138.848C669.531 125.908 672.08 112.958 672.406 110.838C672.56 109.838 672.804 108.635 673.085 107.246L673.086 107.244L673.086 107.24L673.087 107.239L673.087 107.237C673.918 103.142 675.077 97.429 675.236 90.489C675.452 81.0341 673.487 74.2381 669.449 70.7774C656.831 59.9621 643.222 65.1205 634.872 69.2957C627.857 72.803 622.931 77.1662 619.17 82.8252C615.688 88.065 612.93 94.8333 610.758 103.902L601.673 156.496H578.804L587.764 104.62C587.768 103.86 587.849 103.088 588.014 102.316C588.224 101.328 588.442 100.351 588.669 99.3839L598.137 44.5692H621.006L619.736 51.9221C621.358 50.9413 623.043 50.0145 624.794 49.1393C633.721 44.6759 659.925 32.9325 684.115 53.667C696.228 64.0495 698.018 79.977 697.765 91.0054C697.631 96.8705 696.897 102.299 696.18 106.48C695.819 108.581 695.457 110.402 695.172 111.803C695.127 112.02 695.087 112.219 695.049 112.404L694.921 113.029L694.857 113.346L694.817 113.543C694.794 113.659 694.774 113.76 694.756 113.85C694.747 113.898 694.739 113.942 694.731 113.983L694.713 114.08L694.698 114.161L694.688 114.214L694.682 114.25L694.68 114.262L694.68 114.265C694.254 117.028 691.545 130.745 689.053 143.252C688.119 147.942 687.197 152.548 686.406 156.496ZM473.745 72.1081C481.977 58.6765 498.183 41.5637 525.794 41.5637C537.954 41.5637 549.638 45.4148 558.579 52.8873L560.054 44.5684H582.94L563.099 156.495H540.212L541.504 149.207C539.772 150.299 538.006 151.303 536.213 152.216C521.225 159.85 503.141 161.658 488.181 153.663C469.325 143.584 463.218 126.296 463.125 110.631C463.035 95.5184 468.379 80.8633 473.745 72.1081ZM551.441 91.4746C551.338 92.2134 551.31 92.9454 551.35 93.6631L549.682 103.077C549.507 103.469 549.354 103.874 549.222 104.293C545.106 117.405 536.059 127.005 525.986 132.135C515.715 137.366 505.629 137.435 498.804 133.788C489.116 128.609 485.718 120.266 485.66 110.498C485.599 100.177 489.458 89.5964 492.959 83.8844C498.999 74.0292 509.084 64.0993 525.794 64.0993C534.261 64.0993 541.266 67.1038 545.727 71.6567C550.011 76.0286 552.678 82.5377 551.441 91.4746ZM431.496 44.7804L429.627 53.9306C441.199 47.2623 454.529 44.5889 468.007 44.7804L463.773 67.3642C453.901 67.7753 445.287 70.3334 438.462 74.9696C430.603 80.3084 424.081 89.0965 420.938 103.161H420.9L411.445 156.496H388.558L398.152 102.373C398.184 102.07 398.228 101.765 398.286 101.46C398.382 100.948 398.482 100.438 398.585 99.9321L408.609 44.7804H431.496Z", fill="#191A19")
+                        div(class="flex flex-wrap justify-center -mx-3 lg:-mx-6")
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="product.html") Product
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="vision.html") Vision
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="ecosystem.html") Ecosystem
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="whitepaper.html") Whitepaper
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="about.html") About
+                            div(class="w-full md:w-auto p-3 md:px-6")
+                                a(class="inline-block text-lg md:text-xl text-coolGray-500 hover:text-coolGray-600 font-medium", href="waitlist.html") Waitlist
+                div(class="border-b border-coolGray-100")
+                div(class="container px-4 mx-auto")
+                    p(class="py-10 md:pb-20 text-lg md:text-xl text-coolGray-400 font-medium text-center") © 2023 Branche. All rights reserved.
+        script(src="https://cdn.jsdelivr.net/npm/apexcharts")
+        script(src="js/charts-demo.js")
